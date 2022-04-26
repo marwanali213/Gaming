@@ -28,7 +28,7 @@ section{
     min-height: 100vh;
     display: flex;
     align-items: center;
-    background: url(/media/thumb-1920-601157.jpg);
+    background: url(../media/thumb-1920-601157.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size:cover;
