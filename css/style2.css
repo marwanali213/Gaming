@@ -166,7 +166,7 @@ nav #toggle {
 }
 
 .cards1{
-    background-image: url(../media/prev 1.png);
+    background-image: url(../media/prev-1.png);
     background-size: cover;
     border-radius: 5px;
     box-shadow: 0px 5px 20px rgba( 1 1 1/15%);
@@ -178,7 +178,7 @@ nav #toggle {
 }
 
 .cards2{
-    background-image: url(../media/prev 2.png);
+    background-image: url(../media/prev-2.png);
     background-size: cover;
     border-radius: 5px;
     box-shadow: 0px 5px 20px rgba( 1 1 1/15%);
@@ -190,7 +190,7 @@ nav #toggle {
 }
 
 .cards3{
-    background-image: url(../media/prev 3.png);
+    background-image: url(../media/prev-3.png);
     background-size: cover;
     border-radius: 5px;
     box-shadow: 0px 5px 20px rgba( 1 1 1/15%);
@@ -203,7 +203,7 @@ nav #toggle {
 }
 
 .cards4{
-    background-image: url(../media/prev 4.png);
+    background-image: url(../media/prev-4.png);
     background-size: cover;
     border-radius: 5px;
     box-shadow: 0px 5px 20px rgba( 1 1 1/15%);
