@@ -95,7 +95,7 @@ nav #toggle {
     flex-wrap: wrap;
     align-items: center;    
     justify-content: center;
-    background: url(imeges/background.jpg) no-repeat;
+    background: url(../media/background.jpg) no-repeat;
     background-size: cover;
 }
 
