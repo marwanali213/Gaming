@@ -52,7 +52,7 @@ input[type="button"]:hover{
     transition: 0.5s ease;
 }
 
-.../media{
+../media{
     display: flex;    
     flex-direction: row;
     justify-content: center;
