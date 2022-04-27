@@ -396,3 +396,44 @@ nav #toggle {
     transition: 0.2s ease;
 }
 
+footer {
+    background-color: gray;
+    display: flex;
+    padding-top: 50px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer #imagef img {
+    margin-left: 69px;
+    margin-top: -64px;
+    height: 52px;
+    width: 56px;
+}
+
+footer #aboutf {
+    margin-right: 18%;
+    width: 23%;
+}
+
+footer #aboutfp{
+    margin-bottom: 20px;
+}
+
+footer #contactf {
+    margin-right: 149px;
+    margin-bottom: 3%;
+}
+
+footer h5 {
+    padding-bottom: 30px;
+    font-family: fantasy;
+    letter-spacing: 1px;
+    font-weight: 500;
+    font-size: 32px;
+}
+
+footer p {
+    font-family: fantasy;
+}
+
