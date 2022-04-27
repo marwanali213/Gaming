@@ -52,7 +52,7 @@ input[type="button"]:hover{
     transition: 0.5s ease;
 }
 
-.media{
+.../media{
     display: flex;    
     flex-direction: row;
     justify-content: center;
@@ -99,7 +99,7 @@ input[type="button"]:hover{
 }
 
 .cards1{
-    background-image: url(../media/prev 1.png);
+    background-image: url(../../media/prev1.png);
     background-size: cover;
     border-radius: 5px;
     box-shadow: 0px 5px 20px rgba( 1 1 1/15%);
@@ -111,7 +111,7 @@ input[type="button"]:hover{
 }
 
 .cards2{
-    background-image: url(../media/prev 2.png);
+    background-image: url(../media/prev2.png);
     background-size: cover;
     border-radius: 5px;
     box-shadow: 0px 5px 20px rgba( 1 1 1/15%);
@@ -123,7 +123,7 @@ input[type="button"]:hover{
 }
 
 .cards3{
-    background-image: url(../media/prev 3.png);
+    background-image: url(../media/prev3.png);
     background-size: cover;
     border-radius: 5px;
     box-shadow: 0px 5px 20px rgba( 1 1 1/15%);
@@ -136,7 +136,7 @@ input[type="button"]:hover{
 }
 
 .cards4{
-    background-image: url(../media/prev 4.png);
+    background-image: url(../media/prev4.png);
     background-size: cover;
     border-radius: 5px;
     box-shadow: 0px 5px 20px rgba( 1 1 1/15%);
@@ -187,12 +187,12 @@ input[type="button"]:hover{
 }
 
 .screenshots{
-    background-image: url(../media/cover 2.jpeg) ;
+    background-image: url(../media/cover2.jpeg) ;
     background-size: cover;
 }
 
 .cards-f1{
-    background-image: url(../media/per 1.jpg);
+    background-image: url(../media/per1.jpg);
     background-size: cover;
     border-radius: 30px;
     box-shadow: 0px 5px 20px rgba( 1 1 1/100%);
@@ -208,7 +208,7 @@ input[type="button"]:hover{
 }
 
 .cards-f2{
-    background-image: url(../media/per 2.jpg);
+    background-image: url(../media/per2.jpg);
     background-size: cover;
     border-radius: 30px;
     box-shadow: 0px 5px 20px rgba( 1 1 1/100%);
@@ -224,7 +224,7 @@ input[type="button"]:hover{
 }
 
 .cards-f3{
-    background-image: url(../media/per 3.jpg);
+    background-image: url(../media/per3.jpg);
     background-size: cover;
     border-radius: 30px;
     box-shadow: 0px 5px 20px rgba( 1 1 1/100%);
@@ -240,7 +240,7 @@ input[type="button"]:hover{
 }
 
 .cards-g1{
-    background-image: url(../media/per 4.jpg);
+    background-image: url(../media/per4.jpg);
     background-size: cover;
     border-radius: 25px;
     box-shadow: 0px 5px 20px rgba( 1 1 1/80%);
@@ -257,7 +257,7 @@ input[type="button"]:hover{
 }
 
 .cards-g2{
-    background-image: url(../media/per 5.jpg);
+    background-image: url(../media/per5.jpg);
     background-size: cover;
     border-radius: 25px;
     box-shadow: 0px 5px 20px rgba( 1 1 1/100%);
