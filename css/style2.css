@@ -34,7 +34,8 @@ header{
     margin-top: 48em;
 }
 
-input[type="button"]{
+.button button{
+    margin-top: 40em;
     height: 3.9em;
     width: 11em;
     margin-left: 10px;
@@ -46,13 +47,13 @@ input[type="button"]{
     text-transform: uppercase;
 }
 
-input[type="button"]:hover{
+.button button:hover{
     color: white;
     background-color: rgba(172, 5, 5, 0.856);
     transition: 0.5s ease;
 }
 
-../media{
+.media{
     display: flex;    
     flex-direction: row;
     justify-content: center;
