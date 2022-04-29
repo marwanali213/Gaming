@@ -19,6 +19,68 @@ header{
     padding: 10px 0px;
 }
 
+.dar{
+    position: absolute;
+    width: 60px;
+    height: 30px;
+    right: 50px;
+    top: 25px;
+    border-radius: 20px;
+    background: gray;
+}
+.dar:before{
+    position: absolute;
+    content: '';
+    width:23px;
+    height: 23px;
+    left: 4px;
+    top: 4px;
+    border-radius: 50%;
+    background: #fff;
+    cursor: pointer;
+    transition: 0.4s;
+}
+.dar.active:before{
+    left: 33px;
+}
+
+.dar.active{
+    background-color: blue;
+    transition: 0.2s step-end;
+}
+
+header.night{
+    background-color:#161515a1;
+}
+
+a.night{
+    color: #fff;
+}
+
+
+a.night:hover{
+    text-decoration: none;
+   color:rgb(134, 126, 126);
+}
+
+.cards.night{
+    background-color: rgb(73, 68, 68);
+    color: #0b0c0b;
+}
+
+.hints.night{
+    background-color: gray;
+}
+
+.videos.night{
+    background-color: rgb(107, 106, 106);
+}
+
+footer.night{
+    background: rgba(0, 0, 0, 0.719);
+    color: rgb(219, 219, 219);
+}
+
 nav {
     
     width: 84%;
@@ -30,10 +92,10 @@ nav {
 }
 
 .logo {
-    cursor: pointer;
-    width: 45px;
-    height: 45px;
-    margin:-30px;
+    
+    width: 40px;
+    height: 40px;
+    margin: -50px;
 }
 
 nav ul li {
@@ -46,48 +108,12 @@ nav ul li {
 
 nav ul li a {
     text-decoration: none;
-    color: #ffffff;
+    color: rgb(117, 113, 113);
 }
 
 nav ul li a:hover {
     text-decoration: none;
-    color: rgb(134, 126, 126);
-}
-
-nav #container {
-    position: absolute;
-    top: 40px;
-    left: 96%;
-    transform: translate(-50%, -50%);
-}
-
-nav #toggle {
-    font-family: sans-serif;
-    margin: 0;
-    box-sizing: border-box;
-    width: 75px;
-    height: 35px;
-    background: #606163;
-    border-radius: 30px;
-    padding: 4px;
-    transition: all 300ms ease-in-out;
-}
-
-#toggle>#circle {
-    width: 28px;
-    height: 28px;
-    background: #fff;
-    border-radius: 50%;
-    transition: all 300ms ease-in-out;
-
-}
-
-#toggle.active {
-    background: blue;
-}
-
-#toggle.active>#circle {
-    margin-left: 40px;
+    color:blue;
 }
 
 section{
@@ -259,7 +285,7 @@ input:hover{
     height: 100%;
     height: 30em;
     width: 65em;
-    margin-left: 110px;
+    margin-left: 176px;
 }
 
 .info-hent{
@@ -269,7 +295,7 @@ input:hover{
 }
 
 .videos{
-    background: rgb(201, 197, 197);
+    background: rgb(248, 244, 244);
 }
 
 .contener{  
@@ -278,8 +304,8 @@ input:hover{
 }
 
 .video-card{
-    margin-left: -11em;
-    margin-right: 350px;
+    margin-left: -9em;
+    margin-right:330px;
 }
 
 .info-dis{
