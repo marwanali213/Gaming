@@ -9,7 +9,7 @@
 }
 
 header{
-    background-color:#161515a1;
+    background-color:#f0f0f09a;
     width: 100%;
     position: fixed;
     z-index: 999;
@@ -17,6 +17,59 @@ header{
     justify-content: space-between;
     align-items: center;
     padding: 10px 0px;
+}
+
+.dar{
+    position: absolute;
+    width: 60px;
+    height: 30px;
+    right: 50px;
+    top: 25px;
+    border-radius: 20px;
+    background: gray;
+}
+.dar:before{
+    position: absolute;
+    content: '';
+    width:23px;
+    height: 23px;
+    left: 4px;
+    top: 4px;
+    border-radius: 50%;
+    background: #fff;
+    cursor: pointer;
+    transition: 0.4s;
+}
+.dar.active:before{
+    left: 33px;
+}
+
+.dar.active{
+    background-color: blue;
+    transition: 0.2s step-end;
+}
+
+header.night{
+    background-color:#161515a1;
+}
+
+a.night{
+    color: #fff;
+}
+
+
+a.night:hover{
+    text-decoration: none;
+   color:rgb(134, 126, 126);
+}
+
+.media.night{
+    background-color: black;
+}
+
+footer.night{
+    background: rgba(0, 0, 0, 0.719);
+    color: rgb(219, 219, 219);
 }
 
 nav {
