@@ -14,20 +14,14 @@
         <nav>
             <img src="../media/146001.png" alt="logo" class="logo">
             <ul>
-                <li><a href="../index.html">Home</a></li>
-                <li><a href="../index.html#genre">Genre</a></li>
-                <li><a href="../index.html#games">Games</a></li>
-                <li><a href="../index.html#about">About</a></li>
-                <li><a href="../index.html#contact">Contact</a></li>
+                <li><a href="#hero" class="a">Home</a></li>
+                <li><a href="#genre" class="b">Genre</a></li>
+                <li><a href="#games" class="g">Games</a></li>
+                <li><a href="#about" class="d">About</a></li>
+                <li><a href="#contact" class="e">Contact</a></li>
     
             </ul>
-            <div id="container">
-                <div id="toggle" onclick="this.classList.toggle('active')">
-                    <div id="circle">
-                        
-                    </div>
-                </div>
-            </div>
+            <div class="dar" id="dark-change"></div>
         </nav>
     </header>
 
@@ -239,7 +233,7 @@
             </div>
         </div>
     </section>
-    <footer>
+    <footer class="footer">
         <div id="imagef">
             <img src="../media/146001 (1).png" alt="logo">
         </div>
@@ -256,5 +250,33 @@
             <p>you can contact us on this email <a href="mailto:projectgaming400@gmail.com" target="post">projectgaming400@gmail.com</a></p>
         </div>
     </footer>
+    <script>
+        var content = document.getElementsByClassName('header')[0];
+        var contentf = document.getElementsByClassName('footer')[0];
+        var contentc = document.getElementsByClassName('cards')[0];
+        var contenth = document.getElementsByClassName('hints')[0];
+        var contentv = document.getElementsByClassName('videos')[0];
+        var contentl = document.getElementsByClassName('logo')[0];
+        var contenta = document.getElementsByClassName('a')[0];
+        var contentb = document.getElementsByClassName('b')[0];
+        var contentg = document.getElementsByClassName('g')[0];
+        var contentd = document.getElementsByClassName('d')[0];
+        var contente = document.getElementsByClassName('e')[0];
+        var darkMode = document.getElementById('dark-change');
+        darkMode.addEventListener('click', function(){
+            darkMode.classList.toggle('active');
+            content.classList.toggle('night');
+            contentf.classList.toggle('night');
+            contentc.classList.toggle('night');
+            contenta.classList.toggle('night');
+            contentb.classList.toggle('night');
+            contentg.classList.toggle('night');
+            contentd.classList.toggle('night');
+            contente.classList.toggle('night');
+            contenth.classList.toggle('night');
+            contentv.classList.toggle('night');
+            contentl.classList.toggle('night');
+        })
+    </script>
 </body>
 </html>
