@@ -144,7 +144,7 @@ nav ul li a:hover {
     justify-content: center;
     align-items: center;
     margin-top: 1em;
-    background-color:black;
+    background-color:#f0f0f09a;
     height: 7.4em;
     width: 100%;
     padding-left: 60px;
@@ -152,7 +152,7 @@ nav ul li a:hover {
 .icons i{
     padding-right: 55px;
     font-size: 40px;
-    color: gray;
+    color: rgb(46, 45, 45);
 }
 
 .icons i:hover{
