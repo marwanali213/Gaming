@@ -319,13 +319,15 @@ input:hover{
     font-size: 1.1em;
     font-weight: 400;
 }
-footer {
+
+footer{
     background-color:gray;
     border: 20px;
     margin: 0;
     display: flex;
     padding-top: 50px;
 }
+
 #footer{
   font-size: 20px;
   width: 100%;
@@ -333,28 +335,38 @@ footer {
   grid-template-columns: 17% 20% 20% 6% 20% 17%;
   grid-area: "GAP_1 D_footer1D_footer2 D_footer3 D_footer4 GAP_2";
 }
+
 #GAP_1{
 grid:GAP_1;
 }
+
+#contact_us a:hover{
+color: red;
+}
+
 #D_footer1{
   display: flex;
   grid:D_footer1;
 }
+
 #D_footer1 img{
 height:200px;
 width:200px;
 margin: 64% 13% 86% 5%;
 }
+
 #D_footer2{
   grid:D_footer2;
   margin: 37% 0% 0% 0%;
 }
+
 #ex_p ul{
 margin-top: 2%;
 list-style: none;
 padding:0 0 0 2px;
 width: 90%;
 }
+
 #follow_us ul{
 margin-top: 2%;
 list-style: none;
@@ -362,20 +374,25 @@ padding-top: 5%;
 padding: 0;
 width: 90%;
 }
+
 #follow_us ul li{
   display:inline-block;
 }
+
 #D_footer3{
   grid:D_footer2;
   margin: 37% 0% 0% 0%;
 }
+
 #D_footer4{
   grid:D_footer2;
   margin: 37% 0% 0% 0%;
 }
+
 #GAP_2{
   grid:GAP_1;
 }
+
 footer p {
     font-family: fantasy;
 }
