@@ -289,7 +289,7 @@ nav #toggle {
 }
 
 footer {
-  
+  font-family: sans-serif;  
   border: 20px;
   display: flex;
   height: 350px;
@@ -364,6 +364,4 @@ color:black;
   height: 350px;
 }
 
-footer p {
-  font-family: fantasy;
-}
+
