@@ -305,6 +305,11 @@ footer {
 #GAP_1{
   grid:GAP_1;
 }
+
+#contact_us a:hover{
+    color: red;
+}
+
 #D_footer1{
   display: flex;
   grid:D_footer1;
