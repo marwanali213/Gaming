@@ -289,6 +289,7 @@ nav #toggle {
 }
 
 footer {
+  background-color:aliceblue;
   padding-top: 50px;
   font-family: sans-serif;  
   border: 20px;
@@ -297,7 +298,6 @@ footer {
 
 }
 #footer{
-    background-color: aliceblue;
     background-color:aliceblue;
     margin: 0% 0% 1% 0%;
     width: 100%;
