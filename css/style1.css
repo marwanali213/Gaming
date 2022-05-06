@@ -161,7 +161,7 @@ button{
     border-radius: 100px;
 }
 
-input:hover{
+button:hover{
     background-color: red;
 }
 
