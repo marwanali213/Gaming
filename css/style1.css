@@ -133,7 +133,7 @@ section{
 }
 .main h2{
     color: white;
-    font-size: 2.7em;
+    font-size: 3em;
     font-weight: 500;
     text-transform: capitalize;
 }
@@ -141,22 +141,22 @@ section{
 #sony{
     color: white;
     font-weight: 500;
-    font-size: 1.1em;
+    font-size: 1.2em;
     text-transform: capitalize;
     padding-left: 125px;
 }
 
 button{
-    width: 70%;
+    width: 67%;
     align-items: center;
     height: 35px;
-    margin-top: 15px;
-    margin-bottom: 15px;
+    margin-bottom: 25px;
     display: inline-block;
     background-color:  rgb(211, 134, 71);
     border: 1px solid green;
     text-transform: uppercase;
     color: white;
+    font-size: 1em;
     font-weight: 600;
     border-radius: 100px;
 }
