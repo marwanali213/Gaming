@@ -324,8 +324,11 @@ footer {
   height: 350px;
   font-size: 15px;
 }
+#ex_p{
+       margin: 3% 0% 0% 0%;
+}
 #ex_p ul {
-   margin: 3% 0% 0% 0%;
+
   list-style: none;
   padding:0 0 0 2px;
   width: 90%;
