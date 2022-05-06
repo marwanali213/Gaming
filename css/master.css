@@ -114,6 +114,14 @@ nav {
   height: 80px;
 }
 
+ul {
+  margin-left: 440px;
+}
+
+.theme { 
+  margin-left: -255px;
+}
+
 nav ul li {
   display: inline-block;
   list-style: none;
