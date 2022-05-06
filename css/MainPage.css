@@ -337,6 +337,7 @@ color: blue;
 #follow_us ul{
   list-style: none;
   padding: 0;
+    
 }
 #follow_us ul li {
   display:inline-block;
