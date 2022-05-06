@@ -1,245 +1,156 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
-    <link rel="stylesheet" href="../css/style1.css">
-    <link rel="stylesheet" href="../css/navigation bar and footer.css">
-    <link rel="icon" href="../media/146001 (1).ico">
-    <script src="https://kit.fontawesome.com/50ef20246f.js" crossorigin="anonymous"></script>
-    <title>Horizon Zero Dawn</title>
+    <title>Uncharted 4</title>
+    <link rel = "icon" href ="media/logo.png" type = "image/x-icon">
+    <link rel="stylesheet" href="../css/all.min.css">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/main1.css">
 </head>
 <body>
-    <header class="header">
-        <nav>
+    <section id="home">
+        <nav class="fixed-top">
             <img src="../media/logo.png" alt="logo" class="logo">
-            <ul>
-                <li><a href="../index.html" class="a">Home</a></li>
-                <li><a href="../index.html#genre" class="b">Genre</a></li>
-                <li><a href="../index.html#games" class="g">Games</a></li>
-                <li><a href="../index.html#about" class="d">About</a></li>
-                <li><a href="../index.html#contact" class="e">Contact</a></li>
-    
+            <ul class="ms-auto">
+                <li><a href=".hero">Home</a></li>
+                <li><a href="#genre">Genre</a></li>
+                <li><a href="#games">Games</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
-            <div class="dar" id="dark-change"></div>
+            <div id="container">
+                <div id="toggle" onclick="this.classList.toggle('active')">
+                    <div id="circle">
+                    </div>
+                </div>
+            </div>
         </nav>
-    </header>
-
-    <section class="main">
-        <div>
-            <h2>horizen zero dawn</h2>
-            <p id="sony">Sony Interactive Entertainment</p><br>
-            <a href="https://store.steampowered.com/app/1151640/Horizon_Zero_Dawn_Complete_Edition/" target="blank"><button>Downlod</button></a><br> 
-            <div class="information">
-                <i class="fa-solid fa-calendar"> released : 5/12/2017</i><br>
-                <i class="fa-solid fa-user"> single player</i><br>
-                <i class="fa-solid fa-gamepad"> اهتزاز DUALSHOCK 4 </i><br>
+        <div class="container d-flex align-items-center vh-100">
+            <div class="row py-5 my-5">
+                <div class="col-md-6 ">
+                    <h1>UNCHARTED 4: A Thief's End</h1>
+                </div>
+                <div class="col-md-6 ">
+                    <p class="my-2">Set three years after the events of UNCHARTED 3: Drake’s Deception, Nathan Drake has presumably left the world of fortune-hunting behind. However, it doesn’t take long for fate to come calling when Drake’s brother, Sam, resurfaces seeking his help to save his own life and offering an adventure Drake can’t resist.</p>
+                    <br>
+                    <p class="my-2">On the hunt for Captain Henry Avery’s long-lost treasure, Sam and Drake set off to find Libertalia, the pirate utopia deep in the forests of Madagascar. UNCHARTED 4: A Thief’s End takes players on a journey around the globe, through jungle isles, far-flung cities and snow-capped peaks on the search for Avery’s fortune.</p>
+                    <a href="https://www.youtube.com/watch?v=hh5HV4iic1Y"><button type="button" class="btn btn-outline-primary ">Trailer</button></a>
+                    <a href="https://www.youtube.com/watch?v=cMbJxZWAzuA"><button type="button" class="btn btn-outline-primary  ">Sound Track</button></a>
+                </div>
             </div>
 
         </div>
     </section>
-
-    <section class="cards" id="Characters">
-        <h2 class="title">Characters</h2>
-
-        <div class="content">
-
-            <div class="card">
-                <div class="img">
-                    <img src="../media/Aloy2.jpg" alt="">
-                </div>
-                <div class="info">
-                    <h3>Aloy</h3>
-                    <p>Aloy is the main protagonist of Horizon Zero Dawn. A Nora Brave, Seeker and machine hunter of unparalleled skill, Aloy is the genetic clone of 21st century roboticist and engineer Dr. Elisabet Sobeck. She was created by GAIA, the governing artificial intelligence of Project Zero Dawn.</p>
-                </div>
-            </div>
-            <div class="card">
-                <div class="img">
-                    <img src="../media/Rost2.jpg" alt="">
-                </div>
-                <div class="info">
-                    <h3>Rost</h3>
-                    <p>A strict outcast adopts Aloy in the prairie. Only wise grandmothers know why he was ostracized, but no one has met him to believe that he committed a crime against the tribe...</p>
-                </div>
-            </div>
-            <div class="card">
-                <div class="img">
-                    <img src="../media/Varl2.jpg" alt="">
-                </div>
-                <div class="info">
-                    <h3>Varl</h3>
-                    <p>A brave, soft-spoken member of the Nora tribe, Farrell has had the patience to be the son of Sona - one of the greatest heroes the tribe has ever seen and its iron-willed leader. Besides his sister Vala, Farrell experienced no positive encouragement from his mother, who considered excellence to be an award in itself...and few could achieve it.</p>
-                </div>
-            </div>
-            <div class="card">
-                <div class="img">
-                    <img src="../media/Erend2.jpg" alt="">
-                </div>
-                <div class="info">
-                    <h3>Erend</h3>
-                    <p>Erind watched as he struggled with his father's heavy drinking and poor leadership, the Osiram clan disintegrated in violent feuding. Although this heritage makes his sister Ersa struggle to live a better life, Erind's feelings turn into a powerful hatred for his father's failures... and the terrifying feeling that he is destined to refinish them, as he falls into depression, self-destructive impulsiveness and excessive drinking.</p>
-                </div>
-            </div>
+    <section id="char">
+        <div class="title d-flex justify-content-center py-5">
+            <h1>MAIN CHARACTERS</h1>
         </div>
-
-    </section>
-
-    <section class="discover" id="Discover">
-        <h2 class="title-d">Discover The world</h2>
-        <br>
-
-        <div class="content">
-
-            <div class="discover-items">
-                <div class="img-item">
-                    <img src="../media/preview 1.png" alt="">
+        <div class="container">
+            <div class="row py-5">
+                <div class="col-md-3">
+                    <div class="card" style="width: 18rem;">
+                        <img src="../media/nathan.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Nathan Drake</h5>
+                          <p class="card-text">Retired from fortune-hunting, Drake is suddenly forced back into the world of thieves. With the stakes much more personal, he embarks on a globe-trotting journey in pursuit of a historical conspiracy behind a fabled pirate treasure. His greatest adventure will test his physical limits, his resolve, and ultimately what he’s willing to sacrifice to save the ones he loves.</p>
+                        </div>
+                      </div>
                 </div>
-                <div class="info-item">
-                    <h3>Diverse Territories</h3>
+                <div class="col-md-3">
+                    <div class="card" style="width: 18rem;">
+                        <img src="../media/elena.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Elena Fisher </h5>
+                          <p class="card-text">She is an American former journalist, TV personality, and foreign correspondent who is one of the two deuteragonists of the Uncharted series. She serves as the deuteragonist of Drake's Fortune and Among Thieves, and a supporting character in the second half of Drake's Deception. She is married to Nathan Drake, with whom she has a daughter named Cassie.</p>
+                        </div>
+                      </div>
                 </div>
-                <div class="dis">
-                    <p>From frozen mountain ranges in the north, to hot, dense forests in the south, the world of Horizon Zero Dawn offers a wide geographic diversity.</p>
+                <div class="col-md-3">
+                    <div class="card" style="width: 18rem;">
+                        <img src="../media/sam.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Sam Drake</h5>
+                          <p class="card-text">Sam is five years older than his younger brother Nate, and previously thought to be dead. It is said his disappearance is what originally caused Nate to pursue a life of treasure hunting. Sam has been described as more reckless than Nate and a little jealous of his brother’s achievements</p>
+                        </div>
+                      </div>
                 </div>
-            </div>
-
-            <div class="discover-items">
-                <div class="img-item">
-                    <img src="../media/preview4.png" alt="">
-                </div>
-                <div class="info-item">
-                    <h3>1000 years in the future</h3>
-                </div>
-                <div class="dis">
-                    <p>As you move, you'll discover different territories, tribal settlements, and types of robots, as well as the ruins of a lofty forgotten era. Can you unravel the mysteries you collect and discover the fate of humanity?</p>
-                </div>
-            </div>
-
-            <div class="discover-items">
-                <div class="img-item">
-                    <img src="../media/preview 3.png" alt="">
-                </div>
-                <div class="info-item">
-                    <h3>cellars</h3>
-                </div>
-                <div class="dis">
-                    <p>The vaults contain the secrets of the deep past - be sure to use your projector to check for clues and other items…</p>
+                <div class="col-md-3">
+                    <div class="card" style="width: 18rem;">
+                        <img src="../media/tt.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Victor Sullivan</h5>
+                          <p class="card-text">He is an American treasure hunter, fortune seeker, and businessman, as well as a friend, one-time mentor and father figure of fellow treasure hunter Nathan Drake. Throughout the series, Sully appears as a major character and ally to Drake and his friends, often joining him in his various adventures. He also appears frequently as a skin in the multiplayer game modes.</p>
+                        </div>
+                      </div>
                 </div>
             </div>
-
-            <div class="discover-items">
-                <div class="img-item">
-                    <img src="../media/preview 2.png" alt="">
-                </div>
-                <div class="info-item">
-                    <h3>Variable weather systems</h3>
-                </div>
-                <div class="dis">
-                    <p>As you go, you'll experience a full day-night cycle and dynamic weather rituals, 
-                        ranging from sunny days to ominous rainstorms. Tailor your tactics to your situation...</p>
-                </div>
-            </div>
-
-        </div>
-
-    </section>
-
-    <section class="hints" id="Hints">
-            <h2 class="title1">Horizon Zero Dawn Tips</h2>
-            <br>
-            <p class="title2">Become a better bot hunter with these tips from Guerrilla Games</p>
-        
-        <div class="image-hent">
-            <img src="../media/hent.png" alt="">
-        </div>
-        <div class="content">
-
-            <div class="info-hent">
-
-                <ol>
-                    <li>
-                        <b>Find your projector.</b>Projectors are useful for identifying robots, inspect their components and monitor their patrol paths, but beware of flaws. "Because Aloy's movements and actions are limited when using a projector, tall grass is good for hiding," says director Mathijs de Jonge. “Then I pour certain components that I have identified onto the target bots to inflict significant damage, especially when confronted with dangerous bots.”</p>
-                    </li>
-                    <br>
-                    <li>
-                        <p><b>Creative in the use of traps.</b>It's rare for you to survive a full-fledged battle during the initial game stages, as even a couple of Watchers can easily defeat you. That's why it's important to exploit traps to impede enemy movements or lower their health, especially when following a robot's path. “Tackling a large enemy for a long time using something like a rope thrower is really helpful,” explains combat designer Troy Mashburn. "You can come back to it after taking over other enemies - or even have the robot tear itself apart trying to get away."</p>
-                    </li>
-                    <br>
-                    <li>
-                        <p><b>Use the items.</b>Exploiting a racist bot's weaknesses can be the difference between life and death, so use the projector to see what works and prepare yourself accordingly to inflict maximum damage. It's also useful to check that you know what items these particular bots can unleash in their attacks - this might make a tough fight easier. “Preparing potions, especially those that can give you elemental immunity, is a huge help, as it reduces the amount of damage you take in these struggles,” says lead novelist John Gonzales.</p>
-                    </li>
-                </ol>
-            </div>
-
-            <div class="info-hent">
-                <ol start="4">
-                    <li>
-                        <p><b>Expand your weapons range.</b> Most robots come equipped with special weapon components that can be shredded with a few precision-aimed rubber darts – meaning you can turn the tide of battle. "You'll never get Thundergo in one fell swoop," a warning from lead novelist John Gonzales. “But if you detonate his disc ejector, use stealth to evade his attacks and turn his weapon against him, then that can be a huge help.”</p>
-                    </li>
-                    <br>
-                    <li>
-                        <p><b>Balance both shoulders by overtaking.</b> If you struggle to fight multiple robots, getting past some of them to fight for you may increase your chances of survival. Just in case you don't want to get too close, shooting the Arrows of Corruption can wreak enough chaos for you to rest and watch the battle go on, before you go back to get rid of the survivors.</p>
-                    </li>
-                    <br>
-                    <li>
-                        <p><b>Keep moving.</b> Agility and agility are the most important attributes of Aloy, and there is no load bar to limit your running or dodge. Her dribbling roll is very important to avoiding bot attacks, so always be prepared to use her, before launching a counterattack.</p>
-                    </li>
-                    <br>
-                    <li>
-                        <p><b>Let Aloy be your guide.</b> Focus heavily on Aloy's head movements and speech, as they will help you as you explore. Her head will usually move in the direction of something interesting (it's often a resource you can gather), while her words can sometimes let you know when an enemy catches you or stops the chase.</p>
-                    </li>
-                </ol>
-            </div>
-
-            <div class="info-hent">
-
-                <ol start="8">
-                    <li>
-                        <p><b>Don't be afraid to run away.</b> If your presence is caught by powerful bots by mistake or you feel like you've entered a fight where you can't win, run. "In Horizon, running away doesn't mean failure," says lead mission designer David Ford. "It's part of playing tactically, so it's okay to just hide and hide. Most enemies will continue to look for you in the last place you've been eliminated, so assess your situation and fight again when you find a way to take them out."</p>
-                    </li>
-                    <br>
-                    <li>
-                        <p><b>Get out and explore.</b> "Get off the rugged road" encouragement from lead fiction designer John Gonzales. "There are many different details, such as the textual records from the ancient world, which are pieces of a puzzle that you solve to understand the larger story." "If you're really hard at exploring, you'll find a hidden outfit with hot traits early in the game," says Chief Mission Designer David Ford. "You won't get the items needed to unlock it until later, but if you explore and collect caffeine, you'll find the keys you need to unlock the door for that piece of clothing."</p>
-                    </li>
-                </ol>
-            </div>
-
         </div>
     </section>
-
-    <section class="videos" id="Videos">
-        <h2 class="title">Videos</h2>
-        <br>
-        <div class="contener">
-            <div class="video-card"> 
-                <div class="video">
-                    <video src="../media/Horizon Zero Dawn - PS4.mp4" controls height="450" width="800" poster="../media/poster1.jpg"></video>
-                </div>
+    <section id="review">
+        <div class="container d-flex justify-content-center flex-column vh-100">
+            <div class="row">
+                <h2 class="text-white">PLACE YOUR REVIEW:</h2>
+            </div>
+            <div class="row">
+                <form class="row g-3  text-white">
+                    <div class="col-md-6">
+                      <label for="inputEmail4" class="form-label fw-bold">Email</label>
+                      <input type="email" class="form-control opacity-50 " placeholder="Email" id="inputEmail4">
+                    </div>
+                    <div class="col-md-6">
+                        <label for="iputName" class="form-label fw-bold">Name</label>
+                        <input type="text" class="form-control opacity-50" placeholder="First name" aria-label="First name">
+                      </div>
+                    <div class="col-12">
+                      <label for="inputAddress" class="form-label fw-bold">Address</label>
+                      <input type="text" class="form-control opacity-50" id="inputAddress" placeholder="1234 Main St">
+                    </div>
+                    <div class="col-12">
+                        <label for="exampleFormControlTextarea1" class="form-label fw-bold">Review Here</label>
+                        <textarea class="form-control opacity-50" placeholder="Write your review" id="exampleFormControlTextarea1" rows="3"></textarea>
+                    </div>
+                    <div class="col-12">
+                      <button onclick="sayhi()" type="submit" class="btn btn-outline-light px-3">Submit</button>
+                    </div>
+                  </form>
+            </div>
+        </div>
+    </section>
+    <section id="images" class="container-fluid py-5">
+        <h2 class="text-center py-3 fs-1">IMAGES</h2>
+        <div class="slideshow-container">
+            <div class="mySlides fade">
+                <div class="numbertext">1 / 3</div>
+                <img src="../media/2.jpeg" style="width:100%">
+                <div class="text">Caption Text</div>
+            </div>
+            <div class="mySlides fade">
+                <div class="numbertext">2 / 3</div>
+                <img src="../media/3.jpeg" style="width:100%">
+                <div class="text">Caption Two</div>
+            </div>
             
-                <div class="info-dis">
-                    <h2>Create a PlayStation masterpiece</h2>
-                    <p>A PlayStation masterpiece isn't built overnight. For Aloy, Guerrilla had to go to great lengths to create a strong, multi-talented character that players could understand.</p>
-                </div>
+            <div class="mySlides fade">
+                <div class="numbertext">3 / 3</div>
+                <img src="../media/4.jpeg" style="width:100%">
+                <div class="text">Caption Three</div>
             </div>
-   
-            <div class="video-card"> 
-                <div class="video">
-                    <video src="../media/Horizon Zero Dawn 2 - PS4.mp4" controls height="450" width="800" poster="../media/poster2.jpg"></video>
-                </div>
-            
-                <div class="info-dis">
-                    <h2>Prepare for Horizon Zero Dawn</h2>
-                    <p>Before Guerrilla's full vision for Horizon Zero Dawn became clear, the studio had to recruit new skills for special positions initially.</p>
-                </div>
-            </div>
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+        <br>
+        <!-- The dots/circles -->
+        <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
         </div>
     </section>
-   <footer class="footer">
+    <footer class="">
         <div id="footer">
           <div id="GAP_1"></div>
           <div id="D_footer1">
-               <img src="../media/146001 (1).png" alt="logo">
+               <img src="../media/logo.png" alt="logo">
           </div>
           <div id="D_footer2">
             <div id="ex_p" >
@@ -254,10 +165,10 @@
              <div id="follow_us">
               <h4>Follow us</h4>
               <ul>
-                <li><i class="fa-brands fa-facebook-f"></i> </li>
-                <li><i class="fa-brands fa-twitter"></i> </li>
-                <li><i class="fa-brands fa-youtube"></i> </li>
-                <li><i class="fa-brands fa-instagram"></i> </li>
+                <li><i class='fab fa-facebook-f'></i></li>
+                <li><i class='fab fa-twitter'></i></li>
+                <li><i class='fab fa-youtube'></i></li>
+                <li><i class='fab fa-instagram'></i></li>
               </ul>
             </div>
             <br>
@@ -278,35 +189,10 @@
                   , we connect you with video games digital stores like epic games , steam , origin and blizzard .</p>
           </div>
           <div id="GAP_2"></div>
-    </div>
+        </div>
     </footer>
-    <script>
-        var content = document.getElementsByClassName('header')[0];
-        var contentf = document.getElementsByClassName('footer')[0];
-        var contentc = document.getElementsByClassName('cards')[0];
-        var contenth = document.getElementsByClassName('hints')[0];
-        var contentv = document.getElementsByClassName('videos')[0];
-        var contentl = document.getElementsByClassName('logo')[0];
-        var contenta = document.getElementsByClassName('a')[0];
-        var contentb = document.getElementsByClassName('b')[0];
-        var contentg = document.getElementsByClassName('g')[0];
-        var contentd = document.getElementsByClassName('d')[0];
-        var contente = document.getElementsByClassName('e')[0];
-        var darkMode = document.getElementById('dark-change');
-        darkMode.addEventListener('click', function(){
-            darkMode.classList.toggle('active');
-            content.classList.toggle('night');
-            contentf.classList.toggle('night');
-            contentc.classList.toggle('night');
-            contenta.classList.toggle('night');
-            contentb.classList.toggle('night');
-            contentg.classList.toggle('night');
-            contentd.classList.toggle('night');
-            contente.classList.toggle('night');
-            contenth.classList.toggle('night');
-            contentv.classList.toggle('night');
-            contentl.classList.toggle('night');
-        })
-    </script>
+    
+    <script src="../js/bootstrap.bundle.min.js"></script>
+    <script src="../js/script1.js"></script>
 </body>
 </html>
