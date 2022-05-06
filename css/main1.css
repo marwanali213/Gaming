@@ -1,0 +1,251 @@
+#home{
+    background-image: url("media/wide-bg.jpg");
+    background-size: cover;
+    height: 100vh;
+
+}
+nav {
+    width: 100%;
+    height: 55px;
+    margin: auto;
+    padding: 15px ;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color:#A9A9A9;
+}
+nav img{
+    width: 40px;
+}
+
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+    font-size: 18px;
+    font-family: sans-serif;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color:black;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: none;
+    color:DarkBlue;
+}
+
+
+
+nav #toggle {
+    width: 70px;
+    height: 25px;
+    background: #606163;
+    border-radius: 30px;
+    padding: 5px;
+    transition: all 300ms ease-in-out;
+
+}
+
+#toggle>#circle {
+    width: 35px;
+    height: 15px;
+    background: #fff;
+    border-radius: 50%;
+    transition: all 300ms ease-in-out;
+
+}
+
+#toggle.active {
+    background: DarkBlue;
+}
+
+#toggle.active>#circle {
+    margin-left: 40px;
+
+}
+#home .container h1{
+    color: #fff;
+}
+#home .container p{
+    color: #fff;
+}
+#home .container .btn{
+    border-radius: 20%;
+    margin-top: 40px;
+    margin-left: 30px;
+}
+#char{
+    background-color: whitesmoke;
+}
+#char .container img{
+    width:100%;
+    height: 350px;
+}
+#char .container .card-body{
+    height: 340px;
+}
+#char h1{
+    color: #483D8B;
+}
+#review{
+    background-image: url("images/bg2.jpg");
+    background-size: cover;
+    height: 100vh;
+}
+#images {
+    background-color: #DCDCDC;
+    box-sizing: border-box;
+}
+
+footer {
+    background-color:#808080;
+    border: 20px;
+    border-radius: 9px;
+    width: 100%;
+    margin: 0;
+    display: flex;
+    
+}
+#footer{
+  font-size: 20px;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 17% 20% 20% 6% 20% 17%;
+  grid-area: "GAP_1 D_footer1D_footer2 D_footer3 D_footer4 GAP_2";
+}
+#GAP_1{
+grid:GAP_1;
+}
+#D_footer1{
+  display: flex;
+  grid:D_footer1;
+}
+#D_footer1 img{
+height:200px;
+width:200px;
+margin: 64% 13% 86% 5%;
+}
+#D_footer2{
+  grid:D_footer2;
+  margin: 37% 0% 0% 0%;
+}
+#ex_p ul{
+margin-top: 2%;
+list-style: none;
+padding:0 0 0 2px;
+width: 90%;
+}
+#follow_us ul{
+margin-top: 2%;
+list-style: none;
+padding-top: 5%;
+padding: 0;
+width: 90%;
+}
+#follow_us ul li{
+  display:inline-block;
+}
+#D_footer3{
+  grid:D_footer2;
+  margin: 37% 0% 0% 0%;
+}
+#D_footer4{
+  grid:D_footer2;
+  margin: 37% 0% 0% 0%;
+}
+#GAP_2{
+  grid:GAP_1;
+}
+footer p {
+    font-family: fantasy;
+}
+footer  a{
+    color: DarkBlue;
+}
+.slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+  }
+  
+  /* Hide the images by default */
+  .mySlides {
+    display: none;
+  }
+  
+  /* Next & previous buttons */
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+  }
+  
+  /* Caption text */
+  .text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  /* Number text (1/3 etc) */
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+  
+  /* The dots/bullets/indicators */
+  .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  .active, .dot:hover {
+    background-color: #717171;
+  }
+  
+  /* Fading animation */
+  .fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
