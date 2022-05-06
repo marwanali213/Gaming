@@ -1,6 +1,6 @@
 body {
     text-transform: capitalize;
-    background-image: url(../ssssss/ZMGNel.jpg);
+    background-image: url(../media/ZMGNel.jpg);
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
@@ -170,7 +170,7 @@ nav ul li a:hover {
 
 body.night
 {
-	background-image:url(../ssssss/red-dead-redemption-2-xbox-one-4k-eg.jpg);
+	background-image:url(../media/red-dead-redemption-2-xbox-one-4k-eg.jpg);
 	color:#ff1a1a;
 }
 
