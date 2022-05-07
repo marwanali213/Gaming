@@ -979,6 +979,7 @@
 	}
 	#ex_p ul li a{
 	     text-decoration:none;
+             color:white;
 	}
 	#ex_p ul li a :hover{
 	cursor: pointer;
@@ -994,7 +995,8 @@
 	   display:inline-block;
 	}
 	 #D_footer2 ul li a{
-	  color: black;
+	  color:white;
+	  font-size: 15px;
 	}
 	#D_footer3{
 	   grid:D_footer3;
