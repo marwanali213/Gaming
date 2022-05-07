@@ -148,12 +148,12 @@ footer {
   background-color: rgba(255, 0, 0, 40%) ;
   display: flex;
   padding-top: 50px;
-  color: aqua;
+  color:black;
 }
 
 	#footer{
 	    background-color: rgba(255, 0, 0, 40%) ;
-            color: aqua;
+            color:black;
 	    margin: 0% 0% 1% 0%;
 	    width: 100%;
 	    display: grid;
