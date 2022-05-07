@@ -1,0 +1,384 @@
+<html>
+
+<head>
+  <title>
+    Fifa 22
+  </title>
+  <link rel="stylesheet" href="../css/Fifa 22.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="../javascript/fifa22.js"></script>
+</head>
+
+<body>
+  <nav>
+    <img src="../media/146001 (1).png" alt="logo" class="logo">
+    <ul>
+      <li><a href=".hero">Home</a></li>
+      <li><a href="#genre">Genre</a></li>
+      <li><a href="#games">Games</a></li>
+
+      <li><a href="#about">About</a></li>
+      <li><a href="#contact">Contact</a></li>
+
+    </ul>
+    <div id="container">
+      <div id="toggle" onclick="this.classList.toggle('active')">
+        <div id="circle">
+
+        </div>
+      </div>
+    </div>
+  </nav>
+  <div class="poster">
+    <img src="../media/fifa-22-logo-white.png" alt="fifa 22 logo">
+
+  </div>
+  <div class="info">
+
+    <p>FIFA 22 is a football simulation video game published by Electronic Arts. It is the 29th
+      installment in the FIFA series, and was released worldwide on 1 October 2021 for Microsoft Windows,
+      Nintendo Switch, PlayStation 4, PlayStation 5, Xbox One and Xbox Series X/S.[1] Players who pre-ordered
+      the ultimate edition, however, received 4 days of early access and were able to play
+      the game from 27 September.[2] Kylian Mbappé is the cover athlete for the second consecutive year.</p>
+
+    <a href="#buynow">Buy Now</a>
+  </div>
+  <div class="poster1">
+    <img src="../media/FIFA_22_Cover.jpg" alt="fifa 22">
+  </div>
+  <div class="smicons">
+    <a href="https://www.instagram.com/easportsfifa/" target="post"><img class="ig"
+        src="../media/new-instagram-logo-white-border-icon-png-large.png"
+        alt="instagram"></a>
+    <a href="https://www.facebook.com/easportsfifa/" target="post"><img class="fb"
+        src="../media/pngfind.com-thomas-the-dank-engine-6738833.png"
+        alt="facebook"></a>
+
+
+  </div>
+  <div class="slider">
+    <div class="slide active">
+      <img src="../media/bad8be04-e829-4a24-82a3-8a2088a57b06.jpg" alt="image">
+
+    </div>
+    <div class="slide">
+      <img src="../media/original1.jpg" alt="image1">
+
+    </div>
+    <div class="slide">
+      <img src="../media/original2.jpg" alt="image2">
+
+    </div>
+    <div class="slide">
+      <img src="../media/original3.jpg" alt="image3">
+
+    </div>
+    <div class="slide">
+      <img src="../media/original4.jpg" alt="image4">
+
+    </div>
+    <div class="navigation">
+      <i class="fas fa-chevron-left prev-btn"></i>
+      <i class="fas fa-chevron-right next-btn"></i>
+    </div>
+    <div class="navigation-visibility">
+      <div class="slide-icon active"></div>
+      <div class="slide-icon"></div>
+      <div class="slide-icon"></div>
+      <div class="slide-icon"></div>
+      <div class="slide-icon"></div>
+    </div>
+  </div>
+  <script type="text/javascript">
+    const slider = document.querySelector(".slider");
+    const nextBtn = document.querySelector(".next-btn");
+    const prevBtn = document.querySelector(".prev-btn");
+    const slides = document.querySelectorAll(".slide");
+    const slideIcons = document.querySelectorAll(".slide-icon");
+    const numberOfSlides = slides.length;
+    var slideNumber = 0;
+
+    //image slider next button
+    nextBtn.addEventListener("click", () => {
+      slides.forEach((slide) => {
+        slide.classList.remove("active");
+      });
+      slideIcons.forEach((slideIcon) => {
+        slideIcon.classList.remove("active");
+      });
+
+      slideNumber++;
+
+      if (slideNumber > (numberOfSlides - 1)) {
+        slideNumber = 0;
+      }
+
+      slides[slideNumber].classList.add("active");
+      slideIcons[slideNumber].classList.add("active");
+    });
+
+    //image slider previous button
+    prevBtn.addEventListener("click", () => {
+      slides.forEach((slide) => {
+        slide.classList.remove("active");
+      });
+      slideIcons.forEach((slideIcon) => {
+        slideIcon.classList.remove("active");
+      });
+
+      slideNumber--;
+
+      if (slideNumber < 0) {
+        slideNumber = numberOfSlides - 1;
+      }
+
+      slides[slideNumber].classList.add("active");
+      slideIcons[slideNumber].classList.add("active");
+    });
+
+    //image slider autoplay
+    var playSlider;
+
+    var repeater = () => {
+      playSlider = setInterval(function () {
+        slides.forEach((slide) => {
+          slide.classList.remove("active");
+        });
+        slideIcons.forEach((slideIcon) => {
+          slideIcon.classList.remove("active");
+        });
+
+        slideNumber++;
+
+        if (slideNumber > (numberOfSlides - 1)) {
+          slideNumber = 0;
+        }
+
+        slides[slideNumber].classList.add("active");
+        slideIcons[slideNumber].classList.add("active");
+      }, 4000);
+    }
+    repeater();
+
+    //stop the image slider autoplay on mouseover
+    slider.addEventListener("mouseover", () => {
+      clearInterval(playSlider);
+    });
+
+    //start the image slider autoplay again on mouseout
+    slider.addEventListener("mouseout", () => {
+      repeater();
+    });
+  </script>
+  <div class="trailer">
+    <video
+      src="../media/Y2Mate.is - FIFA 22  Official Launch Trailer HyperMotion Begins-SYsi5QuOJNE-720p-1650543435183.mp4"
+      controls></video>
+  </div>
+  <div class="table">
+    <table>
+      <caption>
+        Review scores
+      </caption>
+      <thead>
+        <tr>
+          <td>Publication</td>
+          <td>Score</td>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Game informer</td>
+          <td>7/10</td>
+        </tr>
+        <tr>
+          <td>Game spot</td>
+          <td>8/10</td>
+        </tr>
+        <tr>
+          <td>GamesRadar+</td>
+          <td>7/10</td>
+        </tr>
+        <tr>
+          <td>The guardian</td>
+          <td>8/10</td>
+        </tr>
+        <tr>
+          <td>Push square</td>
+          <td>8/10</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <div class="table2">
+    <table>
+      <caption>
+        Sound tracks
+      </caption>
+      <thead>
+        <tr>
+          <td>Artist</td>
+          <td>Song Name</td>
+          <td>Song</td>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>bakar</td>
+          <td>The mission</td>
+          <td>
+            <audio controls>
+              <source src="../media/X2Download.com - Bakar - The Mission (Official Video) (128 kbps).mp3">
+            </audio>
+          </td>
+        </tr>
+        <tr>
+          <td>AREA21</td>
+          <td>Followers</td>
+          <td>
+            <audio controls>
+              <source src="../media/X2Download.com - AREA21 - Followers (Official Video) (128 kbps).mp3">
+            </audio>
+          </td>
+        </tr>
+
+        <tr>
+          <td>CAIO PRADO</td>
+          <td>BAOBÁ</td>
+          <td>
+            <audio controls>
+              <source src="../media/X2Download.com - Caio Prado - Baobá (Clipe Oficial) (128 kbps).mp3">
+            </audio>
+          </td>
+        </tr>
+        <tr>
+          <td>Glass Animals</td>
+          <td>I Don't Wanna Talk (I Just Wanna Dance)
+          </td>
+          <td>
+            <audio controls>
+              <source
+                src="../media/X2Download.com - Glass Animals - I Don't Wanna Talk (I Just Wanna Dance) _ Official Video (128 kbps).mp3">
+            </audio>
+          </td>
+        </tr>
+        <tr>
+          <td>Harvey Causon</td>
+          <td>Tenfold</td>
+          <td>
+            <audio controls>
+              <source src="../media/X2Download.com - Harvey Causon - Tenfold (128 kbps).mp3">
+            </audio>
+          </td>
+        </tr>
+
+      </tbody>
+    </table>
+
+  </div>
+
+  <div class="futwiz">
+    <h1 onmouseover="transfero(this)" onmouseout="transferou(this)">Fifa 22 Transfer Market</h1>
+    <iframe src="https://www.futwiz.com/en/market/overall/playstation/live" frameborder="10" width="90%"
+      height="70%"></iframe>
+  </div>
+
+  <div class="form">
+    <h3>Fill this form if you played this game before</h3>
+    <form>
+      <div class="q1">
+        <p>What's your favourite striker or winger ?</p>
+        <input type="radio" value="Messi">
+        <label for="Messi">Messi</label><br>
+        <input type="radio" value="Mbappe" name="favstw">
+        <label for="Mbappe">Mbappe</label><br>
+        <input type="radio" value="Lewandowski" name="favstw">
+        <label for="Lewandowski">Lewandowski</label><br>
+        <input type="radio" value="Neymar" name="favstw">
+        <label for="Neymar">Neymar</label><br>
+        <input type="radio" value="Cristiano Ronaldo" name="favstw">
+        <label for="Cristiano Ronaldo">Cristiano Ronaldo</label>
+      </div><br>
+      <div class="q3">
+        <p>How did you heard about this game ?</p>
+        <input type="checkbox" name="hatg">
+        <label for="hatg">twitter</label><br>
+        <input type="checkbox" name="hatg">
+        <label for="hatg">instagram</label><br>
+        <input type="checkbox" name="hatg">
+        <label for="hatg">facebook</label><br>
+        <input type="checkbox" name="hatg">
+        <label for="hatg">your friends</label><br>
+        <input type="checkbox" name="hatg">
+        <label for="hatg">this site</label><br>
+        <input type="checkbox" name="hatg">
+        <label for="hatg">other</label>
+      </div><br>
+      <div class="q2">
+        <p>Rate this game from 1 to 10 .</p>
+        <input type="number" name="rtp" min="1" max="10" step="1" value="1">
+      </div>
+      <br>
+      <button id="btns" onclick="submitalert()">Submit</button>
+    </form>
+  </div>
+  <div id="buynow">
+    <h3>BUY NOW</h3>
+    <ul>
+      <li><a href="https://store.steampowered.com/app/1506830/FIFA_22/" target="post">Steam</a></li>
+      <li><a href="https://www.origin.com/egy/en-us/store/fifa/fifa-22" target="post">Origin</a></li>
+      <li><a href="https://stadia.google.com/u/0/game/fifa-22" target="post">Stadia</a></li>
+    </ul>
+  </div>
+  <hr>
+  <footer class="footer">
+    <div id="footer">
+      <div id="GAP_1"></div>
+      <div id="D_footer1">
+        <img src="../media/146001 (1).png" alt="logo">
+      </div>
+      <div id="D_footer2">
+        <div id="ex_p">
+          <h4>EXPLORE PROPERTIES</h4>
+          <ul>
+            <li><a href="../index.html">Main</a></li>
+            <li><a href="../index.html#genre">Genres</a></li>
+          </ul>
+        </div>
+        <br>
+        <br>
+        <div id="follow_us">
+          <h4>Follow us</h4>
+          <ul>
+            <li><a href="https://www.facebook.com/G-gaming-115430534489982/"><i class="fa-brands fa-facebook-f"></i></a>
+            </li>
+            <li><a href="https://mobile.twitter.com/Ggaming512003"><i class="fa-brands fa-twitter"></i> </a></li>
+            <li><a href="https://youtube.com/channel/UCZ2H4-HzA_hmY3lUW1R-PeQ" target="_blank"><i
+                  class="fa-brands fa-youtube"></i> </a></li>
+            <li><a href="https://www.instagram.com/g_gaming51?utm_source=qr"><i class="fa-brands fa-instagram"></i> </a>
+            </li>
+          </ul>
+        </div>
+        <br>
+        <div id="contact_us">
+          <h4>Contact Us</h4>
+          you can contact us on this email
+          <a href="mailto:projectgaming400@gmail.com" target="post">projectgaming400@gmail.com</a>
+        </div>
+
+      </div>
+      <div id="D_footer3">
+
+      </div>
+      <div id="D_footer4">
+        <h2 style="font-family: fantasy; font-weight: 500; font-size: 32px;">About</h2> This site helps you join the
+        world of gaming , we provide here the
+        highest rated games and the most popular ones too , we connect you with video games digital stores like epic
+        games , steam , origin and blizzard .</p>
+      </div>
+      <div id="GAP_2"></div>
+    </div>
+  </footer>
+</body>
+
+</html>
