@@ -156,6 +156,13 @@ list-style: none;
 padding:0 0 0 2px;
 width: 90%;
 }
+#ex_p ul li a{
+   color:black;
+    text-decoration:none;
+}
+#D_footer2 ul li a{
+  color: black;
+}
 #follow_us ul{
 margin-top: 2%;
 list-style: none;
