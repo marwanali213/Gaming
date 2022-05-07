@@ -201,7 +201,9 @@ nav #toggle {
 }
 
 #game img {
-    border-radius: 10px;
+    border-radius: 24px;
+    width: 174px;
+    height: 246px;
 }
 
 #game {
