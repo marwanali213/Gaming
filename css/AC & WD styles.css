@@ -994,6 +994,7 @@
 	}
 	#follow_us ul li{
 	   display:inline-block;
+           font-size:15px;
 	}
 	 #D_footer2 ul li a{
 	  color: #71d1ef;
