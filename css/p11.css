@@ -48,70 +48,89 @@ footer {
     display: flex;
     padding-top: 50px;
 }
-#footer{
-  font-size: 20px;
-  width: 100%;
-  display: grid;
-  grid-template-columns: 10% 20% 20% 20% 20% 10%;
-  grid-area: "GAP_1 D_footer1D_footer2 D_footer3 GAP_2";
-}
-#GAP_1{
-grid:GAP_1;
-}
-#D_footer1{
-  display: flex;
-  grid:D_footer1;
-}
-#D_footer1 img{
-height:200px;
-width:200px;
-margin: 64% 13% 86% 21%;
-}
-#D_footer2 h4{
-  margin-bottom: 0%;
-}
-#D_footer2{
-  grid:D_footer2;
-  margin: 37% 0% 0% 0%;
-}
-#follow_us ul{
-  margin-top: 2%;
-      list-style: none;
-      padding-top: 5%;
-      padding: 10;
-      padding-right: -42px;
-      margin-right: 33px;
-      padding-left: 6px;
-      
-      margin-left: 456px;
-  }
-}
+footer {
+	  background-color:aliceblue;
+	  padding-top: 50px;
+	  font-family: sans-serif;  
+	  border: 20px;
+	  display: flex;
+	  height: 350px;
+	
+	}
+	#footer{
+	    background-color:aliceblue;
+	    margin: 0% 0% 1% 0%;
+	    width: 100%;
+	    display: grid;
+	    grid-template-columns: 17% 20% 20% 6% 20% 17%;
+	    grid-area: "GAP_1 D_footer1D_footer2 D_footer3 D_footer4 GAP_2";
+	    height: 350px;
+	}
+	#GAP_1{
+	   grid:GAP_1;
+	   height: 350px;
+	}
+	#D_footer1{
+	   display: flex;
+	   grid:D_footer1;
+	   height: 350px;
+	}
+	#D_footer1 img{
+	   height:100px;
+	   width:100px;
+	   margin:31% 7% 0% 24%;
+	}
+	#D_footer2{
+	  font-size: 15px;
+	   grid:D_footer2;
+	   margin: 3% 0% 0% 0%;
+	  height: 350px;
+	}
+	#ex_p ul{
+	   margin-top: 2%;
+	   list-style: none;
+	   padding:0 0 0 2px;
+	   width: 90%;
+	   text-decoration:none;
+	}
+	#ex_p ul li a{
+	     text-decoration:none;
+	}
+	#ex_p ul li a :hover{
+	cursor: pointer;
+	}
+	#follow_us ul{
+	   margin-top: 2%;
+	   list-style: none;
+	   padding-top: 5%;
+	   padding: 0;
+	   width: 90%;
+	}
+	#follow_us ul li{
+	   display:inline-block;
+	}
+	 #D_footer2 ul li a{
+	  color: black;
+	}
+	#D_footer3{
+	   grid:D_footer3;
+	   margin: 3% 0% 0% 0%;
+	   height: 350px;
+	}
+	#D_footer4{
+	   grid:D_footer4;
+	   margin: 3% 0% 0% 0%;
+	   height: 280px;
+	   font-size: 20px;
+	}
+	#GAP_2{
+	   grid:GAP_1;
+	  height: 350px;
+	}
+	.footer h4{
+	  margin-top: 3px;
+	}
 
-#follow_us{
-
-}
-#follow_us h4{
-  margi-bottom: 0%;
-}
-#follow_us ul li{
-  display:inline-block;
-}
-#D_footer3{
-  grid:D_footer2;
-  margin: 37% 0% 0% 0%;
-}
-#contact_us{
-
-}
-#contact_us h4{
-  margin-bottom: 0%;
-}
-#GAP_2{
-  grid:GAP_1;
-}
-footer p {
-    font-family: fantasy;
-}
 .paragraph{
   color: black ;
     margin-right: 40px;
