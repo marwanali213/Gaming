@@ -1,0 +1,385 @@
+<html>
+
+<head>
+  <title>
+    Need For Speed : Heat
+  </title>
+  <link rel="stylesheet" href="../css/NeedForSpeed.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="../javascript/fifa22.js"></script>
+</head>
+
+<body>
+  <nav>
+    <img src="../media/146001 (1).png" alt="logo" class="logo">
+    <ul>
+      <li><a href=".hero">Home</a></li>
+      <li><a href="#genre">Genre</a></li>
+      <li><a href="#games">Games</a></li>
+
+      <li><a href="#about">About</a></li>
+      <li><a href="#contact">Contact</a></li>
+
+    </ul>
+    <div id="container">
+      <div id="toggle" onclick="this.classList.toggle('active')">
+        <div id="circle">
+
+        </div>
+      </div>
+    </div>
+  </nav>
+  <div class="poster">
+    <img src="../media/nfsh-hero-large-adaptive-logo-xl.png.adapt.crop16x9.1920w.png" alt="fifa 22 logo">
+
+  </div>
+  <div class="info">
+
+    <p>In Need for Speed Heat, the lines of the law fade when the sun starts to set.
+       By daylight, compete in the Speedhunter Showdown, a series of sanctioned events 
+       where you can earn Bank to customize your personal fleet of cars. When your ride’s 
+       styled just right, ramp up the intensity at night. Enter illicit street races with 
+       your die-hard crew but stay ready – rogue cops are waiting. Take chances,
+       burn competitors to increase your Rep, and risk it all for underground glory.</p>
+
+    <a href="#buynow">Buy Now</a>
+  </div>
+  <div class="poster1">
+    <img src="../media/Cover_Art_of_Need_for_Speed_Heat.png" alt="fifa 22">
+  </div>
+  <div class="smicons">
+    <a href="https://www.instagram.com/needforspeed/?hl=en" target="post"><img class="ig"
+        src="../media/new-instagram-logo-white-border-icon-png-large.png"
+        alt="instagram"></a>
+    <a href="https://www.facebook.com/needforspeed/" target="post"><img class="fb"
+        src="../media/pngfind.com-thomas-the-dank-engine-6738833.png"
+        alt="facebook"></a>
+
+
+  </div>
+  <div class="slider">
+    <div class="slide active">
+      <img src="../media/nsfh-embed-screenshot-about-the-world.jpg" alt="image">
+
+    </div>
+    <div class="slide">
+      <img src="../media/nsfh-embed-screenshot-about-cops.jpg" alt="image1">
+
+    </div>
+    <div class="slide">
+      <img src="../media/5e5a0cd4-9edf-4d8a-884b-c56ffec87b5c_1.043288a7f9337bbd51ba0df269692e1f.jpeg" alt="image2">
+
+    </div>
+    <div class="slide">
+      <img src="../media/ss_4127c58a6a10124b4ba28375ec937a977aba37fc.1920x1080.jpg" alt="image3">
+
+    </div>
+    <div class="slide">
+      <img src="../media/ss_1f752c037d7cbab2e1658f36d5c76d11e91e4fec.1920x1080.jpg" alt="image4">
+
+    </div>
+    <div class="navigation">
+      <i class="fas fa-chevron-left prev-btn"></i>
+      <i class="fas fa-chevron-right next-btn"></i>
+    </div>
+    <div class="navigation-visibility">
+      <div class="slide-icon active"></div>
+      <div class="slide-icon"></div>
+      <div class="slide-icon"></div>
+      <div class="slide-icon"></div>
+      <div class="slide-icon"></div>
+    </div>
+  </div>
+  <script type="text/javascript">
+    const slider = document.querySelector(".slider");
+    const nextBtn = document.querySelector(".next-btn");
+    const prevBtn = document.querySelector(".prev-btn");
+    const slides = document.querySelectorAll(".slide");
+    const slideIcons = document.querySelectorAll(".slide-icon");
+    const numberOfSlides = slides.length;
+    var slideNumber = 0;
+
+    //image slider next button
+    nextBtn.addEventListener("click", () => {
+      slides.forEach((slide) => {
+        slide.classList.remove("active");
+      });
+      slideIcons.forEach((slideIcon) => {
+        slideIcon.classList.remove("active");
+      });
+
+      slideNumber++;
+
+      if (slideNumber > (numberOfSlides - 1)) {
+        slideNumber = 0;
+      }
+
+      slides[slideNumber].classList.add("active");
+      slideIcons[slideNumber].classList.add("active");
+    });
+
+    //image slider previous button
+    prevBtn.addEventListener("click", () => {
+      slides.forEach((slide) => {
+        slide.classList.remove("active");
+      });
+      slideIcons.forEach((slideIcon) => {
+        slideIcon.classList.remove("active");
+      });
+
+      slideNumber--;
+
+      if (slideNumber < 0) {
+        slideNumber = numberOfSlides - 1;
+      }
+
+      slides[slideNumber].classList.add("active");
+      slideIcons[slideNumber].classList.add("active");
+    });
+
+    //image slider autoplay
+    var playSlider;
+
+    var repeater = () => {
+      playSlider = setInterval(function () {
+        slides.forEach((slide) => {
+          slide.classList.remove("active");
+        });
+        slideIcons.forEach((slideIcon) => {
+          slideIcon.classList.remove("active");
+        });
+
+        slideNumber++;
+
+        if (slideNumber > (numberOfSlides - 1)) {
+          slideNumber = 0;
+        }
+
+        slides[slideNumber].classList.add("active");
+        slideIcons[slideNumber].classList.add("active");
+      }, 4000);
+    }
+    repeater();
+
+    //stop the image slider autoplay on mouseover
+    slider.addEventListener("mouseover", () => {
+      clearInterval(playSlider);
+    });
+
+    //start the image slider autoplay again on mouseout
+    slider.addEventListener("mouseout", () => {
+      repeater();
+    });
+  </script>
+  <div class="trailer">
+    <video
+      src="../media/nfsh.mp4"
+      controls></video>
+  </div>
+  <div class="table">
+    <table>
+      <caption>
+        Review scores
+      </caption>
+      <thead>
+        <tr>
+          <td>Publication</td>
+          <td>Score</td>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Game informer</td>
+          <td>7.75/10</td>
+        </tr>
+        <tr>
+          <td>Game spot</td>
+          <td>7/10</td>
+        </tr>
+        <tr>
+          <td>GamesRadar+</td>
+          <td>8/10</td>
+        </tr>
+        <tr>
+          <td>The guardian</td>
+          <td>7.5/10</td>
+        </tr>
+        <tr>
+          <td>Push square</td>
+          <td>8/10</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <div class="table2">
+    <table>
+      <caption>
+        Sound tracks
+      </caption>
+      <thead>
+        <tr>
+          <td>Artist</td>
+          <td>Song Name</td>
+          <td>Song</td>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Kendick Lamar</td>
+          <td>Momma I Hit A Lick</td>
+          <td>
+            <audio controls>
+              <source src="../media/2 Chainz - Momma I Hit A Lick Feat. Kendrick Lamar (Official Audio).mp3">
+            </audio>
+          </td>
+        </tr>
+        <tr>
+          <td>Alvaro Diaz</td>
+          <td>Pro</td>
+          <td>
+            <audio controls>
+              <source src="../media/Pro.mp3">
+            </audio>
+          </td>
+        </tr>
+
+        <tr>
+          <td>Blac Youngsta</td>
+          <td>So What</td>
+          <td>
+            <audio controls>
+              <source src="../media/Blac Youngsta - So What (Audio).mp3">
+            </audio>
+          </td>
+        </tr>
+        <tr>
+          <td>Anna Lunoe</td>
+          <td>303
+          </td>
+          <td>
+            <audio controls>
+              <source
+                src="../media/Anna Lunoe - 303 (Official Visualizer).mp3">
+            </audio>
+          </td>
+        </tr>
+        <tr>
+          <td>Diplo</td>
+          <td>Bubble Up</td>
+          <td>
+            <audio controls>
+              <source src="../media/Diplo - Bubble Up (Official Audio).mp3">
+            </audio>
+          </td>
+        </tr>
+
+      </tbody>
+    </table>
+
+  </div>
+
+  <div class="futwiz">
+    <h1 onmouseover="need(this)" onmouseout="need2(this)">NFS HEAT Car List</h1>
+    <iframe src="https://www.gtplanet.net/need-for-speed-heat-car-list/" frameborder="10" width="90%"
+      height="70%"></iframe>
+  </div>
+
+  <div class="form">
+    <h3>Fill this form if you played this game before</h3>
+    <form>
+      <div class="q1">
+        <p>What's your favourite car in need for speed heat ?</p>
+        <input type="radio" value="Koenigsegg Regera">
+        <label for="Koenigsegg Regera">Koenigsegg Regera</label><br>
+        <input type="radio" value="McLaren P1 GTR" name="favstw">
+        <label for="McLaren P1 GTR">McLaren P1 GTR</label><br>
+        <input type="radio" value="Ferrari FXX-K Evo '18" name="favstw">
+        <label for="Ferrari FXX-K Evo '18">Ferrari FXX-K Evo '18</label><br>
+        <input type="radio" value=" Ford GT" name="favstw">
+        <label for=" Ford GT"> Ford GT</label><br>
+        <input type="radio" value="Corvette ZR 1 '19" name="favstw">
+        <label for="Corvette ZR 1 '19">Corvette ZR 1 '19</label>
+      </div><br>
+      <div class="q3">
+        <p>How did you heard about this game ?</p>
+        <input type="checkbox" name="hatg">
+        <label for="hatg">twitter</label><br>
+        <input type="checkbox" name="hatg">
+        <label for="hatg">instagram</label><br>
+        <input type="checkbox" name="hatg">
+        <label for="hatg">facebook</label><br>
+        <input type="checkbox" name="hatg">
+        <label for="hatg">your friends</label><br>
+        <input type="checkbox" name="hatg">
+        <label for="hatg">this site</label><br>
+        <input type="checkbox" name="hatg">
+        <label for="hatg">other</label>
+      </div><br>
+      <div class="q2">
+        <p>Rate this game from 1 to 10 .</p>
+        <input type="number" name="rtp" min="1" max="10" step="1" value="1">
+      </div>
+      <br>
+      <button id="btns" onclick="submitalert()">Submit</button>
+    </form>
+  </div>
+  <div id="buynow">
+    <h3>BUY NOW</h3>
+    <ul>
+      <li><a href="https://store.steampowered.com/app/1222680/Need_for_Speed_Heat/" target="post">Steam</a></li>
+      <li><a href="https://www.origin.com/usa/en-us/store/need-for-speed/need-for-speed-heat" target="post">Origin</a></li>
+      <li><a href="https://www.microsoft.com/en-il/p/need-for-speed-heat/brzzlbf5t245" target="post">Microsoft store</a></li>
+    </ul>
+  </div>
+  <hr>
+  <footer class="footer">
+    <div id="footer">
+      <div id="GAP_1"></div>
+      <div id="D_footer1">
+        <img src="../media/146001 (1).png" alt="logo">
+      </div>
+      <div id="D_footer2">
+        <div id="ex_p">
+          <h4>EXPLORE PROPERTIES</h4>
+          <ul>
+            <li><a href="../index.html">Main</a></li>
+            <li><a href="../index.html#genre">Genres</a></li>
+          </ul>
+        </div>
+        <br>
+        <br>
+        <div id="follow_us">
+          <h4>Follow us</h4>
+          <ul>
+            <li><a href="https://www.facebook.com/G-gaming-115430534489982/"><i class="fa-brands fa-facebook-f"></i></a>
+            </li>
+            <li><a href="https://mobile.twitter.com/Ggaming512003"><i class="fa-brands fa-twitter"></i> </a></li>
+            <li><a href="https://youtube.com/channel/UCZ2H4-HzA_hmY3lUW1R-PeQ" target="_blank"><i
+                  class="fa-brands fa-youtube"></i> </a></li>
+            <li><a href="https://www.instagram.com/g_gaming51?utm_source=qr"><i class="fa-brands fa-instagram"></i> </a>
+            </li>
+          </ul>
+        </div>
+        <br>
+        <div id="contact_us">
+          <h4>Contact Us</h4>
+          you can contact us on this email
+          <a href="mailto:projectgaming400@gmail.com" target="post">projectgaming400@gmail.com</a>
+        </div>
+
+      </div>
+      <div id="D_footer3">
+
+      </div>
+      <div id="D_footer4">
+        <h2 style="font-family: fantasy; font-weight: 500; font-size: 32px;">About</h2> This site helps you join the
+        world of gaming , we provide here the
+        highest rated games and the most popular ones too , we connect you with video games digital stores like epic
+        games , steam , origin and blizzard .</p>
+      </div>
+      <div id="GAP_2"></div>
+    </div>
+  </footer>
+</body>
+
+</html>
