@@ -1,0 +1,352 @@
+
+
+img{
+  margin-left:100px;
+  margin-top:50px;
+}
+body{
+    background-color: aliceblue;
+}
+nav {
+
+    width: 84%;
+    margin: auto;
+    padding: 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    cursor: pointer;
+    width: 80px;
+    height: 80px;
+}
+
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+    font-size: 18px;
+    font-family: sans-serif;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #606163;
+}
+
+nav ul li a:hover {
+    text-decoration: none;
+    color: #373aff;
+}
+
+nav #container {
+    position: absolute;
+    top: 68px;
+    left: 96%;
+    transform: translate(-50%, -50%);
+}
+
+nav #toggle {
+    width: 75px;
+    height: 33px;
+    background: #606163;
+    border-radius: 30px;
+    padding: 5px;
+    transition: all 300ms ease-in-out;
+}
+
+#toggle>#circle {
+    width: 35px;
+    height: 32px;
+    background: #fff;
+    border-radius: 50%;
+    transition: all 300ms ease-in-out;
+
+}
+
+#toggle.active {
+    background: blue;
+}
+
+#toggle.active>#circle {
+    margin-left: 40px;
+
+}
+
+footer {
+    background-color: aliceblue;
+    display: flex;
+    padding-top: 50px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer #imagef img {
+    margin-left: 69px;
+    margin-top: -64px;
+    height: 52px;
+    width: 56px;
+}
+
+footer #aboutf {
+    margin-right: 18%;
+
+    width: 23%;
+}
+
+footer #contactf {
+    margin-right: 149px;
+    margin-bottom: 3%;
+}
+
+footer h5 {
+    padding-bottom: 30px;
+    font-family: fantasy;
+    letter-spacing: 1px;
+    font-weight: 500;
+    font-size: 32px;
+}
+
+footer p {
+    font-family: fantasy;
+}
+.paragraph{
+  color: black ;
+    margin-right: 40px;
+    margin-left: 412px;
+    padding-left:10px;
+    margin-top: -312px;
+}
+h1{
+  color: black;
+    margin-left: 123px;
+    margin-top: 63px;
+font-size: 55px;
+}
+.slider{
+  width: 432px;
+      height: 513px;
+  background-image:url("../media/11.jpg");
+  margin: 100 auto;
+  background-repeat:no-repeat;
+  animation: slide 20s infinite;
+  margin-left:355px;
+}
+ @keyframes slide{
+  5.55%{
+     background-image:url("../media/22.jpg");
+   }
+  11.10%{
+     background-image:url("../media/33.jpg");
+   }
+   16.6%{
+     background-image:url("../media/44.jpg");
+   }
+   22.20%{
+     background-image:url("../media/55.jpg");
+   }
+   27.75%{
+     background-image:url("../media/66.jpg");
+   }
+   33.30%{
+      background-image:url("../media/77.jpg");
+    }
+    38.85%{
+       background-image:url("../media/88.jpg");
+     }
+     44.40%{
+        background-image:url("../media/99.jpg");
+      }
+      49.95%{
+         background-image:url("../media/100.jpg");
+       }
+       55.50%{
+          background-image:url("../media/101.jpg");
+        }
+        61.05%{
+           background-image:url("../media/102.jpg");
+         }
+        66.60%{
+            background-image:url("../media/103.jpg");
+          }
+          72.15%{
+             background-image:url("../media/104.jpg");
+           }
+          77.70%{
+              background-image:url("../media/105.jpg");
+            }
+            83.25%{
+               background-image:url("../media/106.jpg");
+             }
+             88.80%{
+                background-image:url("../media/107.jpg");
+              }
+              94.35%{
+                 background-image:url("../media/108.jpg");
+               }
+               100%{
+                  background-image:url("../media/109.jpg");
+                }
+ }
+ .des{
+   margin-left: 80px;
+     color: black;
+     font-size: 55px;
+     margin-top: -103px;
+ }
+
+
+.ww2 .ww22 {
+    margin-left: 325px;
+    margin-top: 0;
+}
+table,th,td{
+  color:black;
+    border: 1px solid;
+    width: 1107px;
+    margin-left: 113px
+  }
+  .p2{
+    color:black;
+    margin-left:100px;
+  }
+  h2{
+    color:black;
+    margin-left: 100px;
+    font-size:55px;
+  }
+.f{
+  color:black;
+  font-size:45px;
+  margin-left:136px;
+}
+table , .po{
+margin-right:95px;
+
+}
+.weapons{
+  idth: 1150px;
+    height: 664px;
+    background-image: url("../media/M1941.jpg");
+    margin: 100 auto;
+    background-repeat: no-repeat;
+    animation: weapon 40s infinite;
+    margin-left: 94px;
+}
+@keyframes weapon {
+  5.26%{
+    background-image:url("../media/M1 Garand.jpg")
+  }
+  10.52%{
+    background-image:url("../media/3.jpg")
+  }
+  15.78%{
+    background-image:url("../media/4.jpg")
+  }
+  21.04%{
+      background-image:url("../media/5.jpg")
+    }
+    26.30%{
+      background-image:url("../media/6.jpg")
+    }
+    31.56%{
+      background-image:url("../media/7.jpg")
+    }
+    36.82%{
+      background-image:url("../media/8.jpg")
+    }
+    42.08%{
+      background-image:url("../media/9.jpg")
+    }
+    47.34%{
+      background-image:url("../media/10.jpg")
+    }
+    52.60%{
+      background-image:url("../media/111.jpg")
+    }
+    57.86%{
+      background-image:url("../media/12.jpg")
+    }
+    63.12%{
+      background-image:url("../media/13.jpg")
+    }
+    68.38%{
+      background-image:url("../media/14.jpg")
+    }
+    73.64%{
+      background-image:url("../media/15.jpg")
+    }
+    78.90%{
+      background-image:url("../media/16.jpg")
+    }
+    84.16%{
+      background-image:url("../media/17.jpg")
+    }
+    89.42%{
+      background-image:url("../media/18.jpg")
+    }
+    94.68%{
+      background-image:url("../media/19.jpg")
+    }
+    100%{
+      background-image:url("../media/20.jpg")
+    }
+}
+.link{
+  font-size:55px;
+  margin-left:100px;
+
+}
+.link a{
+
+  text-decoration: none;
+    border-style: outset;
+    border-radius: 40px;
+    padding-left: 5px;
+    border-style: border-box;
+    border: 3px solid #6e74bb;
+    border-radius: 30px;
+    box-shadow: 10px 10px 5px #929c9f;
+    margin-left: 405px;
+}
+
+.frame iframe{
+  margin-left:146px;
+}
+.frame{
+  font-size:65px;
+  margin-left:146px;
+}
+.i11{
+  margin-left: 259px;
+    margin-top: -17px;
+}
+.b1{
+  border-left: 4px solid red;
+      background-color: #e1d4d4;
+      padding: 17px;
+      margin-left: 226px;
+      margin-right: 245px;
+}
+.b2{
+  margin-left: 224px;
+      margin-top: -191px;
+}
+.i2{
+  margin-left: 887px;
+    margin-top: -7px;
+}
+.b11{
+  border-left: 4px solid red;
+      background-color: #e1d4d4;
+      padding: 17px;
+      margin-left: 226px;
+      margin-right: 245px;
+  margin-top:56px;
+}
+.b22{
+  margin-left: 223px;
+    margin-top: -148px;
+}
