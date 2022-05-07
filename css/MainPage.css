@@ -195,9 +195,9 @@ nav #toggle {
 
 #games #game p {
     padding-top: 10px;
-
-    font-weight: 800;
+    font-weight: 200;
     font-size: 18px;
+    font-family: fantasy;
 }
 
 #game img {
