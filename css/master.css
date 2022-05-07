@@ -217,7 +217,7 @@ footer {
 	  height: 350px;
 	}
 	#ex_p ul{
-	   margin-top: 2%;
+	   margin: 2% 0% 0% 2%;
 	   list-style: none;
 	   padding:0 0 0 2px;
 	   width: 90%;
@@ -230,7 +230,7 @@ footer {
 	cursor: pointer;
 	}
 	#follow_us ul{
-	   margin-top: 2%;
+	   margin: 2% 0% 0% 2%;
 	   list-style: none;
 	   padding-top: 5%;
 	   padding: 0;
@@ -240,7 +240,7 @@ footer {
 	   display:inline-block;
 	}
 	 #D_footer2 ul li a{
-	 
+	 color: white;
 	}
 	#D_footer3{
 	   grid:D_footer3;
