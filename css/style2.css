@@ -416,80 +416,91 @@ nav ul li a:hover {
     transition: 0.2s ease;
 }
 
-footer {
+footer{
     background-color:gray;
     border: 20px;
     margin: 0;
     display: flex;
     padding-top: 50px;
+     height: 350px;
 }
+	}
+	#footer{
+	    background-color:gray;
+	    margin: 0% 0% 1% 0%;
+	    width: 100%;
+	    display: grid;
+	    grid-template-columns: 17% 20% 20% 6% 20% 17%;
+	    grid-area: "GAP_1 D_footer1D_footer2 D_footer3 D_footer4 GAP_2";
+	    height: 350px;
+	}
+	#GAP_1{
+	   grid:GAP_1;
+	   height: 350px;
+	}
+	#D_footer1{
+	   display: flex;
+	   grid:D_footer1;
+	   height: 350px;
+	}
+	#D_footer1 img{
+	   height:100px;
+	   width:100px;
+	   margin:31% 7% 0% 24%;
+	}
+	#D_footer2{
+	  font-size: 15px;
+	   grid:D_footer2;
+	   margin: 3% 0% 0% 0%;
+	  height: 350px;
+	}
+	#ex_p ul{
+	   margin-top: 2%;
+	   list-style: none;
+	   padding:0 0 0 2px;
+	   width: 90%;
+	   text-decoration:none;
+	}
+	#ex_p ul li a{
+	     text-decoration:none;
+        color:black;
+	}
+	#ex_p ul li a :hover{
+	cursor: pointer;
+	}
+	#follow_us ul{
+	   margin-top: 2%;
+	   list-style: none;
+	   padding-top: 5%;
+	   padding: 0;
+	   width: 90%;
+	}
+	#follow_us ul li{
+	   display:inline-block;
+	}
+	 #D_footer2 ul li a{
+	  color: black;
+	}
+	#D_footer3{
+	   grid:D_footer3;
+	   margin: 3% 0% 0% 0%;
+	   height: 350px;
+	}
+	#D_footer4{
+	   grid:D_footer4;
+	   margin: 3% 0% 0% 0%;
+	   height: 280px;
+	   font-size: 20px;
+	}
+	#GAP_2{
+	   grid:GAP_1;
+	  height: 350px;
+	}
+	.footer h4{
+	  margin-top: 3px;
+	}
 
-#footer{
-  font-size: 20px;
-  width: 100%;
-  display: grid;
-  grid-template-columns: 17% 20% 20% 6% 20% 17%;
-  grid-area: "GAP_1 D_footer1D_footer2 D_footer3 D_footer4 GAP_2";
-}
-
-#GAP_1{
-grid:GAP_1;
-}
-
-#contact_us a:hover{
-  color: red;
-}
-
-#D_footer1{
-  display: flex;
-  grid:D_footer1;
-}
-
-#D_footer1 img{
-height:200px;
-width:200px;
-margin: 55% 13% 86% 5%;
-}
-
-#D_footer2{
-  grid:D_footer2;
-  margin: 37% 0% 0% 0%;
-}
-
-#ex_p ul{
-margin-top: 2%;
-list-style: none;
-padding:0 0 0 2px;
-width: 90%;
-}
-
-#follow_us ul{
-margin-top: 2%;
-list-style: none;
-padding-top: 5%;
-padding: 0;
-width: 90%;
-}
-
-#follow_us ul li{
-  display:inline-block;
-}
-
-#D_footer3{
-  grid:D_footer2;
-  margin: 37% 0% 0% 0%;
-}
-
-#D_footer4{
-  grid:D_footer2;
-  margin: 37% 0% 0% 0%;
-}
-
-#GAP_2{
-  grid:GAP_1;
-}
 
 footer p {
     font-family: fantasy;
 }
-
