@@ -411,8 +411,8 @@ h6{margin-left: 180px;
 }
 .js2{
   margin-left: 331px;
-font-size: 55px;
-color: #649164
+    font-size: 55px;
+    color: #649164;
 }
 .js3{
   font-size: 55px;
@@ -420,10 +420,17 @@ color: #649164
   color: #4f854f;"
 }
 .js5{
-  font-size: 55px;
-
-   color: #6a9788;
-   margin-left: 481px;
+ background-color: #cbb4b4;
+   width: 71px;
+    border-radius: 44px;
+    margin-left: 394px;
+    height: 15px;
+   padding: 22px;
+    padding-left: 41px;
+   font-size: 20px;
+    padding-top: 15px;
+    padding-right: 1px;
+    cursor:pointer
 }
 .js4{background-color: #cbb4b4;
     width: 71px;
