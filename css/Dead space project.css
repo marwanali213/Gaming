@@ -3,7 +3,7 @@
     padding: 0px;
 }
 body{
-    background-image: url(../Media/cover002.jpg);
+    background-image: url(../media/cover002.jpg);
     background-size: cover;
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -11,7 +11,7 @@ body{
     color: aliceblue;
 }
 body.active{
-    background-image: url(../Media/thumb-1920-90405.jpg);
+    background-image: url(../media/thumb-1920-90405.jpg);
     background-size: cover;
     background-attachment: fixed;
     background-repeat: no-repeat;
