@@ -307,6 +307,9 @@ footer {
 #ex_p ul li a :hover{
 color: var(--Color1);
 }
+#ex_p ul li a{
+color:var(--MainColor);
+}
 #follow_us ul{
   list-style: none;
   padding: 0;
