@@ -512,4 +512,48 @@ a:hover{
 .p2 iframe:hover{
   transform:scale(1.1);
 }
+.js1{
+  font-size: 55px;
+
+    color: #6a9788;
+    margin-left: 481px
+}
+.js2{
+  background-color: #cbb4b4;
+    width: 71px;
+    border-radius: 44px;
+    margin-left: 394px;
+    height: 15px;
+    padding: 22px;
+    padding-left: 41px;
+    font-size: 20px;
+    padding-top: 15px;
+    padding-right: 1px;
+    cursor:pointer;
+}
+.js3{
+  background-color: #cbb4b4;
+   width: 71px;
+   border-radius: 44px;
+   margin-top: -52px;
+   margin-left: 659px;
+   height: 15px;
+   padding: 22px;
+   padding-left: 39px;
+   font-size: 20px;
+   padding-bottom: 29px;
+   padding-top: 14px;
+   padding-right: 4px;
+   cursor:pointer;
+}
+.js4{
+  margin-left: 331px;
+ font-size: 55px;
+ color: #649164;
+}
+.js5{
+  font-size: 55px;
+   margin-left: 378px;
+   color: #4f854f;
+}
 
