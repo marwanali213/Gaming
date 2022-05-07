@@ -184,37 +184,85 @@ body.night
 
 footer {
   background-color: rgb(128, 128, 128) ;
-  display: flex;
   padding-top: 50px;
-  justify-content: space-between;
   align-items: center;
 }
+	#footer{
+	    background-color: rgb(128, 128, 128) ;
+	    margin: 0% 0% 1% 0%;
+	    width: 100%;
+	    display: grid;
+	    grid-template-columns: 17% 20% 20% 6% 20% 17%;
+	    grid-area: "GAP_1 D_footer1D_footer2 D_footer3 D_footer4 GAP_2";
+	    height: 350px;
+	}
+	#GAP_1{
+	   grid:GAP_1;
+	   height: 350px;
+	}
+	#D_footer1{
+	   display: flex;
+	   grid:D_footer1;
+	   height: 350px;
+	}
+	#D_footer1 img{
+	   height:100px;
+	   width:100px;
+	   margin:31% 7% 0% 24%;
+	}
+	#D_footer2{
+	  font-size: 15px;
+	   grid:D_footer2;
+	   margin: 3% 0% 0% 0%;
+	  height: 350px;
+	}
+	#ex_p ul{
+	   margin-top: 2%;
+	   list-style: none;
+	   padding:0 0 0 2px;
+	   width: 90%;
+	   text-decoration:none;
+	}
+	#ex_p ul li a{
+	     text-decoration:none;
+	}
+	#ex_p ul li a :hover{
+	cursor: pointer;
+	}
+	#follow_us ul{
+	   margin-top: 2%;
+	   list-style: none;
+	   padding-top: 5%;
+	   padding: 0;
+	   width: 90%;
+	}
+	#follow_us ul li{
+	   display:inline-block;
+	}
+	 #D_footer2 ul li a{
+	 
+	}
+	#D_footer3{
+	   grid:D_footer3;
+	   margin: 3% 0% 0% 0%;
+	   height: 350px;
+	}
+	#D_footer4{
+	   grid:D_footer4;
+	   margin: 3% 0% 0% 0%;
+	   height: 280px;
+	   font-size: 20px;
+	}
+	#GAP_2{
+	   grid:GAP_1;
+	  height: 350px;
+	}
+	.footer h4{
+	  margin-top: 3px;
+	}
 
-footer #imagef img {
-  margin-left: 69px;
-  margin-top: -64px;
-  height: 52px;
-  width: 56px;
-}
 
-footer #aboutf {
-  margin-right: 18%;
 
-  width: 23%;
-}
-
-footer #contactf {
-  margin-right: 149px;
-  margin-bottom: 3%;
-}
-
-footer h5 {
-  padding-bottom: 30px;
-  font-family: fantasy;
-  letter-spacing: 1px;
-  font-weight: 500;
-  font-size: 32px;
-}
 
 footer p {
   font-family: fantasy;
