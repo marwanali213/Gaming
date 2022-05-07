@@ -980,7 +980,7 @@
 	#ex_p ul li a{
 	     text-decoration:none;
              color: #71d1ef;
-	     font-size: 15px;
+	      font-size: 10px;
 	}
 	#ex_p ul li a :hover{
 	cursor: pointer;
@@ -994,11 +994,11 @@
 	}
 	#follow_us ul li{
 	   display:inline-block;
-           font-size:15px;
+           font-size:16px;
 	}
 	 #D_footer2 ul li a{
 	  color: #71d1ef;
-	  font-size:15px;
+	  font-size:10px;
 	}
 	#D_footer3{
 	   grid:D_footer3;
