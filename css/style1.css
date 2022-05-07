@@ -377,6 +377,10 @@ width: 90%;
 #follow_us ul li{
   display:inline-block;
 }
+ #D_footer2 ul li a{
+  color: black;
+}
+
 
 #D_footer3{
   grid:D_footer2;
