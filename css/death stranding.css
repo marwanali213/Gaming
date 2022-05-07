@@ -309,6 +309,7 @@ color: var(--Color1);
 }
 #ex_p ul li a{
 color:var(--MainColor);
+   text-decoration: none;
 }
 #follow_us ul{
   list-style: none;
