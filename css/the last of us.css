@@ -58,34 +58,7 @@ nav {
       text-decoration: none;
       color: var(--MainColor);
   }
-  nav #container {
-      position: absolute;
-      top: 66px;
-      left: 96%;
-      transform: translate(-50%, -50%);
-  }
-  nav #toggle {
-      width: 75px;
-      height: 33px;
-      background: #606163;
-      border-radius: 30px;
-      padding: 5px;
-      transition: all 300ms ease-in-out;
-  }
-  #toggle>#circle {
-      width: 35px;
-      height: 32px;
-      background: #fff;
-      border-radius: 50%;
-      transition: all 300ms ease-in-out;
-  }
-  #toggle.active {
-      background:blue;
-  }
-  #toggle.active>#circle {
-      margin-left: 40px;
-  }
-
+ 
 #icons{
       display: flex;
       flex-direction: column;
