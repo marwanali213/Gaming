@@ -369,9 +369,10 @@ footer {
 	#follow_us ul li{
 	   display:inline-block;
 	}
-	#follow_us ul li{
-		color:white;
-        }
+        #follow_us ul li a{
+	 color:white;
+	}
+	
 	#D_footer3{
 	   grid:D_footer3;
 	   margin: 3% 0% 0% 0%;
