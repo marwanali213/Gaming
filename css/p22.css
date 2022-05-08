@@ -89,7 +89,7 @@ padding: 0;
   display:inline-block;
 }
 #follow_us ul li{
-  display:inline-block;
+  display:inline;
 }
 #D_footer3{
   grid:D_footer2;
