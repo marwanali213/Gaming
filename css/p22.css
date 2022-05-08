@@ -82,12 +82,11 @@ list-style: none;
 padding-top: 5%;
 padding: 0;
 }
-
-#follow_us{
-
-}
 #follow_us h4{
   margi-bottom: 0%;
+}
+#follow_us ul{
+  display:inline-block;
 }
 #follow_us ul li{
   display:inline-block;
