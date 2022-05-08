@@ -96,12 +96,10 @@ margin-top: 2%;
     margin-left: -130px;
 }
 #D_footer3{
-  grid:D_footer2;
+  grid:D_footer3;
   margin: 37% 0% 0% 0%;
 }
-#contact_us{
 
-}
 #contact_us h4{
   margin-bottom: 0%;
 }
@@ -377,7 +375,7 @@ margin-left: -111px;
   margin-top: -193px;
       margin-right: 392px;
       margin-left: 103px;
-      border-left: 4px solid red;
+      border-left: 4px solid #4adede;
       background-color: #e3ebf1;
       margin-bottom: 62px;
       padding-bottom: 10px;
