@@ -89,7 +89,7 @@ padding: 0;
 #follow_us h4{
   margi-bottom: 0%;
 }
-#follow_us ul li{
+#follow_us ul li a{
   display:inline-block;
 }
 #D_footer3{
