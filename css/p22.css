@@ -55,7 +55,7 @@ footer {
     margin: 0;
     display: flex;
     padding-top: 50px;
-    height: 350px;
+    height: 418px;
    margin-top: 8px;
 }
 #footer{
@@ -83,7 +83,7 @@ footer {
 #D_footer2{
   font-size: 16px;
    grid:D_footer2;
-   margin-top:-59px;
+   margin-top:12px;
   height: 332px;
 }
 #ex_p ul{
@@ -125,7 +125,7 @@ cursor: pointer;
    grid:D_footer4;
    margin-top:10px;
    height: 280px;
-   font-size: 18px;
+   font-size: 20px;
   padding-bottom:32px;
 }
 #GAP_2{
