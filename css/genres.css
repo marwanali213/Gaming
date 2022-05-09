@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    background-color: aliceblue;
+}
+
+nav {
+    width: 84%;
+    margin: auto;
+    padding: 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    cursor: pointer;
+    width: 80px;
+    height: 80px;
+}
+
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+    font-size: 18px;
+    font-family: sans-serif;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #606163;
+}
+
+nav ul li a:hover {
+    text-decoration: none;
+    color: #373aff;
+}
+
+h1 {
+    font-family: sans-serif;
+    font-size: 88px;
+    text-align: center;
+    padding-top: 48px;
+}
+
+#games {
+    background-color: aliceblue;
+    padding-top: 94px;
+    padding-left: 68px;
+}
+
+#games h3 {
+
+    font-size: 53px;
+    text-align: center;
+    padding-bottom: 65px;
+    margin-left: -65px;
+    padding-top: 52px;
+    font-weight: 600;
+    font-family: sans-serif;
+}
+
+#games #game p {
+    padding-top: 10px;
+    font-weight: 200;
+    font-size: 18px;
+    font-family: fantasy;
+}
+
+#game img {
+    border-radius: 24px;
+    width: 174px;
+    height: 246px;
+}
+
+#game {
+
+
+    float: left;
+    width: 146px;
+    padding: 0px;
+    padding-left: 0px;
+    margin-right: 92px;
+    margin-left: 24px;
+    margin-top: 11px;
+    border-radius: 45px;
+    padding-right: 0px;
+
+
+    margin-bottom: -27px;
+    height: 359px;
+}
+
+#games::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+footer {
+    background-color: aliceblue;
+    padding-top: 10%;
+    font-family: sans-serif;
+    border: 20px;
+    display: flex;
+    height: 350px;
+
+}
+
+#footer {
+    background-color: aliceblue;
+    margin: 0% 0% 1% 0%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 17% 20% 20% 6% 20% 17%;
+    grid-area: "GAP_1 D_footer1D_footer2 D_footer3 D_footer4 GAP_2";
+    height: 350px;
+}
+
+#GAP_1 {
+    grid: GAP_1;
+    height: 350px;
+}
+
+#D_footer1 {
+    display: flex;
+    grid: D_footer1;
+    height: 350px;
+}
+
+#D_footer1 img {
+    height: 100px;
+    width: 100px;
+    margin: 31% 7% 0% 24%;
+}
+
+#D_footer2 {
+    font-size: 15px;
+    grid: D_footer2;
+    margin: 3% 0% 0% 0%;
+    height: 350px;
+}
+
+#ex_p ul {
+    margin-top: 2%;
+    list-style: none;
+    padding: 0 0 0 2px;
+    width: 90%;
+    text-decoration: none;
+}
+
+#ex_p ul li a {
+    text-decoration: none;
+}
+
+#ex_p ul li a :hover {
+    cursor: pointer;
+}
+
+#follow_us ul {
+    margin-top: 2%;
+    list-style: none;
+    padding-top: 5%;
+    padding: 0;
+    width: 90%;
+}
+
+#follow_us ul li {
+    display: inline-block;
+}
+
+#D_footer2 ul li a {
+    color: black;
+}
+
+#D_footer3 {
+    grid: D_footer3;
+    margin: 3% 0% 0% 0%;
+    height: 350px;
+}
+
+#D_footer4 {
+    grid: D_footer4;
+    margin: 3% 0% 0% 0%;
+    height: 280px;
+    font-size: 20px;
+}
+
+#GAP_2 {
+    grid: GAP_1;
+    height: 350px;
+}
+
+.footer h4 {
+    margin-top: 3px;
+}
