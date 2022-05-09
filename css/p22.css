@@ -64,7 +64,7 @@ footer {
   display: grid;
     grid-template-columns: 17% 20% 20% 6% 20% 17%;
     grid-area: "GAP_1 D_footer1D_footer2 D_footer3 D_footer4 GAP_2";
-    height: 621px;
+    height: 391px;
 } 
 #GAP_1{
    grid:GAP_1;
