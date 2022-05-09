@@ -51,7 +51,7 @@ footer {
     background-color:#4adede;
     color:black;
     border: 20px;
-    width: 99%;
+    width: 133%;
     margin: 0;
     display: flex;
     padding-top: 50px;
@@ -62,7 +62,7 @@ footer {
   display: grid;
     grid-template-columns: 17% 20% 20% 6% 20% 17%;
     grid-area: "GAP_1 D_footer1D_footer2 D_footer3 D_footer4 GAP_2";
-    height: 350px;
+    height: 621px;
 } 
 #GAP_1{
    grid:GAP_1;
@@ -79,7 +79,7 @@ footer {
    margin:31% 7% 0% 24%;
 }
 #D_footer2{
-  font-size: 15px;
+  font-size: 25px;
    grid:D_footer2;
    margin: 3% 0% 0% 0%;
   height: 350px;
@@ -104,10 +104,11 @@ cursor: pointer;
    list-style: none;
    padding: 0;
    width: 90%;
-   margin-left:-2px;
+   margin-left:4px;
 }
 #follow_us ul li {
    display:inline;
+   margin-left:-148px
 }
  #D_footer2 ul li a{
   color: black;
@@ -122,7 +123,7 @@ cursor: pointer;
    grid:D_footer4;
    margin: 3% 0% 0% 0%;
    height: 280px;
-   font-size: 28px;
+   font-size: 27px;
   padding-bottom:32px;
 }
 #GAP_2{
