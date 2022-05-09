@@ -134,7 +134,7 @@ body{
 
 .show-btn, .container{
   position: absolute;
-  top: 76%;
+  top: 79%;
   left: 8.8%;
   transform: translate(-50%, -50%);
 background-color: #212121;font-size: 14px;border-radius: 44px;color: #98f6ff;}
@@ -269,7 +269,7 @@ body{
 
 .show-btn2, .container2{
   position: absolute;
-  top: 81%;
+  top: 84%;
   left: 8.8%;
   transform: translate(-50%, -50%);
 background-color: #212121;font-size: 14px;border-radius: 44px;padding-right: 12px;padding-left: 12px;color: #98f6ff;}
