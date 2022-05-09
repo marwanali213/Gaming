@@ -55,6 +55,8 @@ footer {
     margin: 0;
     display: flex;
     padding-top: 50px;
+    height: 350px;
+   margin-top: 8px;
 }
 #footer{
   font-size: 25px;
@@ -79,10 +81,10 @@ footer {
    margin:31% 7% 0% 24%;
 }
 #D_footer2{
-  font-size: 25px;
+  font-size: 16px;
    grid:D_footer2;
-   margin: 3% 0% 0% 0%;
-  height: 350px;
+   margin-top:-59px;
+  height: 332px;
 }
 #ex_p ul{
    list-style: none;
@@ -99,7 +101,7 @@ footer {
 cursor: pointer;
 }
 #follow_us ul{
-   margin-top: -17%;
+   margin-top: -30%;
   display:inline-flex;
    list-style: none;
    padding: 0;
@@ -119,11 +121,11 @@ cursor: pointer;
    height: 350px;
 }
 #D_footer4{
-  height: 252px;
+  height: 280px;
    grid:D_footer4;
-   margin: 3% 0% 0% 0%;
+   margin-top:10px;
    height: 280px;
-   font-size: 27px;
+   font-size: 18px;
   padding-bottom:32px;
 }
 #GAP_2{
