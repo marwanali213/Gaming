@@ -256,11 +256,11 @@ iframe{
   border-radius:9px;
   width: 70%;
   background-color:var(--MainColorBackGround);
-  animation: text1 0.7s infinite;
+  animation: text1 0.3s infinite;
 }
 @keyframes text1 {
   from {background-color:var(--MainColorBackGround);}
-  to {background-color:#00172e;}
+  to {background-color:#020d12;}
 }
 footer {
   color:var(--MainColor);
