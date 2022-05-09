@@ -341,12 +341,12 @@ margin-left:42px;
 .br11 p{margin-left: -17px;
     margin-top: 10px;
 }
-.br11 a{margin-left: -111px;}
+.br11 a{margin-left:25px;}
 .br12{
       border:4px solid #4adede;
       border-radius: 20px;
-      margin-left: 743px;
-      margin-right: 239px;
+      margin-left: 751px;
+      margin-right: 242px;
       padding-left: 18px;
       box-shadow: 0 3px 15px 0 rgb(0 0 0 / 20%), 0 6px 25px 0 rgb(0 0 0 / 19%);
       margin-top: -386px;
@@ -357,7 +357,7 @@ margin-left:42px;
   margin-left: -10px;
     margin-top: 8px;
 }
-.br12 a{margin-left: -111px;}
+.br12 a{margin-left:44px;}
 .br13{
     border:4px solid #4adede;
     border-radius: 20px;
@@ -372,14 +372,13 @@ margin-left:42px;
       margin-left: -13px;
 }
 .br13 a{
-    margin-left: -111px;
+    margin-left:23px;
 }
 .br14{
     border:4px solid #4adede;
     border-radius: 20px;
     margin-left: 413px;
     margin-right: 572px;
-
     box-shadow: 0 3px 15px 0 rgb(0 0 0 / 20%), 0 6px 25px 0 rgb(0 0 0 / 19%);
     margin-top: -605px;
     margin-bottom: 215px;}
@@ -387,19 +386,19 @@ margin-left:42px;
   margin-left: 8px;
 }
 .br14 a{
-margin-left: -111px;
+margin-left: 25px;
 }
 .l{
-  margin-top: -193px;
+      margin-top: -193px;
       margin-right: 392px;
       margin-left: 103px;
-      border-left: 4px solid #4adede;
+      border-left: 6px solid #4adede;
       background-color: #e3ebf1;
       margin-bottom: 62px;
       padding-bottom: 10px;
 }
 .p11{
-  margin-top: 212px;
+      margin-top: 212px;
       padding-top: 19px;
       padding-left: 0px;
       font-size: 25px;
@@ -409,11 +408,11 @@ margin-left: -111px;
       margin-left: 24px;
   }
  a{
-     padding:0px -1px 0px 89px;
-     margin:0px -11px 0px -93px;
-     font-size: 25px;
+     font-size:25px;
      text-decoration: none;
+    margin-left:158px;
     }
+
 a:hover{
   text-decoration:underline;
 
@@ -442,7 +441,13 @@ a:hover{
     background-color:#4adede;
     box-shadow: 0 3px 15px 0 rgb(0 0 0 / 20%), 0 6px 25px 0 rgb(0 0 0 / 19%);
 }
-
+.v a{
+   margin-left: 22px;
+   margin-right: 20px;
+   color:black;
+   font-size: 20px;
+  text-decoration:none;
+}
 .v:hover{
   text-decoration:underline;
 
@@ -451,9 +456,10 @@ a:hover{
   color:red;
 }
 .middle{
-    margin-left:11px;
-    margin-top: 59px;
+    margin-left:126px;
+    margin-top: 260px;
     margin-bottom: 38px;
+     font-size: 25px; 
 }
 .btn{
   display: inline-block;
@@ -498,12 +504,11 @@ a:hover{
 }
 .js1{
   font-size: 55px;
-
-    color: #6a9788;
+    color: #4adede;
     margin-left: 481px
 }
 .js2{
-  background-color: #cbb4b4;
+  background-color: #69bfcd;
     width: 71px;
     border-radius: 44px;
     margin-left: 394px;
@@ -516,7 +521,7 @@ a:hover{
     cursor:pointer;
 }
 .js3{
-  background-color: #cbb4b4;
+  background-color:#69bfcd;
    width: 71px;
    border-radius: 44px;
    margin-top: -52px;
@@ -533,11 +538,11 @@ a:hover{
 .js4{
   margin-left: 331px;
  font-size: 55px;
- color: #649164;
+ color:#69bfcd;
 }
 .js5{
   font-size: 55px;
    margin-left: 378px;
-   color: #4f854f;
+   color: #69bfcd;
 }
 
