@@ -6,12 +6,16 @@ body{
 
 nav {
     background-color:#4adede;
-    width: 102%;
+    width: 104%;
     margin: auto;
     padding: 20px 0;
     display: flex;
     align-items: center;
     justify-content: space-between;
+     margin-left: -19px;
+     margin-right:24px;
+    border-radius:21px;
+    font-weight:800;
 }
 
 .logo {
@@ -23,11 +27,11 @@ nav {
 nav ul li {
   display: inline-block;
   list-style: none;
-  margin-left: -47px;
+  margin-left: -156px;
   font-size: 18px;
-  margin-top: 10px;
+  margin-top: 2px;
   font-family: sans-serif;
-  margin-right: 10px;
+  margin-right:316px;
 }
 
 nav ul li a {
