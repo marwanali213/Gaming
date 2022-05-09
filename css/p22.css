@@ -28,7 +28,7 @@ nav {
 nav ul li {
   display: inline-block;
   list-style: none;
-  margin-left: -156px;
+  margin-left: -360px;
   font-size: 18px;
   margin-top: 2px;
   font-family: sans-serif;
@@ -85,11 +85,12 @@ footer {
   height: 350px;
 }
 #ex_p ul{
-   margin-top: 2%;
    list-style: none;
    padding:0 0 0 2px;
    width: 90%;
    text-decoration:none;
+    margin-top: -14px;
+    margin-left:-158px;
 }
 #ex_p ul li a{
      text-decoration:none;
@@ -98,11 +99,12 @@ footer {
 cursor: pointer;
 }
 #follow_us ul{
-   margin-top: 2%;
+   margin-top: -17%;
+  display:inline-flex;
    list-style: none;
-   padding-top: 5%;
    padding: 0;
    width: 90%;
+   margin-left:-2px;
 }
 #follow_us ul li {
    display:inline;
@@ -116,10 +118,12 @@ cursor: pointer;
    height: 350px;
 }
 #D_footer4{
+  height: 252px;
    grid:D_footer4;
    margin: 3% 0% 0% 0%;
    height: 280px;
-   font-size: 20px;
+   font-size: 28px;
+  padding-bottom:32px;
 }
 #GAP_2{
    grid:GAP_1;
@@ -429,12 +433,12 @@ a:hover{
 .v{
     text-decoration: none;
     border-radius: 50px;
-    margin-top: 68px;
-    margin-left: 499px;
+    margin-top: 50px;
+    margin-left: 525px;
     margin-right: 633px;
     padding-left: 12px;
     padding-right: 39px;
-    padding-top:6px;
+    padding-top:12px;
     padding-bottom:41px;
     color:black;
     display: block;
