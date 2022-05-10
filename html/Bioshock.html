@@ -7,7 +7,12 @@
         <script src="https://kit.fontawesome.com/50ef20246f.js" crossorigin="anonymous"></script>
         <title>Bioshock Infinite</title>
     </head>
-    <body>
+    <body onload="age()">
+        <div id="ol" onclick="off()">
+            <div id="wr001">
+                <img id="wrlogo1" src="../media/wrlogo.gif">
+                <h1 id="wr1">WARNING</h1><br> <p id="wr2">THIS GAME MAY CONTAIN CONTENT NOT APPROPRIATE FOR ALL AGES,CONTINUE AT YOUR OWN RISK<br>contains: blood and gore</p></div>
+        </div>
         <div id="c">
             <div id="nv1">
             <nav>
@@ -22,7 +27,7 @@
         
                 </ul>
                 <div id="container">
-                    <div id="toggle" onclick="this.classList.toggle('active')">
+                    <div id="toggle" onclick="lightm()">
                         <div id="circle">
 
                         </div>
@@ -151,11 +156,10 @@
                     <p><small>― Elizabeth and Booker DeWitt</small></p>
                     </div>
                     </figure>
-                    <p>Elizabeth is the deuteragonist of BioShock Infinite, Burial at Sea - Episode 1, and the protagonist of Burial at Sea - Episode 2.(the two dlcs of the original) She is a 19 to 20 year old woman<br>
-                        who has been imprisoned in the flying city of Columbia since she was an infant and who Booker DeWitt is sent to retrieve and bring to New York City unharmed.<br>
-                        She is guarded by Songbird, a monstrous, winged creature who was both her keeper and only friend during childhood. However, she began to hate him as she grew up,<br>
+                    <p>Elizabeth is the deuteragonist of BioShock Infinite, Burial at Sea - Episode 1, and the protagonist of Burial at Sea - Episode 2.(the two dlcs of the original) She is a 19 to 20 year old woman
+                        who has been imprisoned in the flying city of Columbia since she was an infant and who Booker DeWitt is sent to retrieve and bring to New York City unharmed.
+                        She is guarded by Songbird, a monstrous, winged creature who was both her keeper and only friend during childhood. However, she began to hate him as she grew up,
                         seeing him as a warden prohibiting her freedom. Elizabeth has the power to manipulate Tears that exist in the fabric of time.
-                        <br>
                         When Booker frees her from her tower on Monument Island, the Founders, Zachary Hale Comstock, and Songbird are all determined to recapture her at any cost.</p>
                     <br>
                     </div>
@@ -168,12 +172,12 @@
                     <div id="q4">
                     <q><i><small>Lord forgives everything. But I'm just a prophet…<br>
                          so I don't have to.Amen.</small></i></q>
-                    <p>― Father Comstock</p>
+                    <p><small>― Father Comstock</small></p>
                     </div>
                     </figure>
-                    <p>Zachary Hale Comstock is the leader of The Founders,<br>
-                    the ultra-nationalist/nativist political party that founded the floating city of Columbia,<br>
-                    and the main antagonist of BioShock Infinite. Within Columbia, Comstock has earned the titles of "Prophet" and "Father Comstock."<br>
+                    <p>Zachary Hale Comstock is the leader of The Founders,
+                    the ultra-nationalist/nativist political party that founded the floating city of Columbia,
+                    and the main antagonist of BioShock Infinite. Within Columbia, Comstock has earned the titles of "Prophet" and "Father Comstock."
                     He claims to have the ability to predict the future of Columbia, attacks from his enemies, and the actions of the False Shepherd.</p>
                     </div>                                             
                     </div>
@@ -185,12 +189,12 @@
                     <img id="ken" src="../media/Ken_Levine_at_E3_2011.jpg" title="Ken Levine">
                     <p><small>ken levine the creative director<br> and lead writer</small></p>
                     </figure>
-                    <p>BioShock Infinite was developed by Irrational Games and published by 2K Games, with Ken Levine working on the game as the creative director and lead writer.<br>
-                         Irrational and Levine, who had previously developed the original BioShock, passed on the opportunity to work on the sequel BioShock 2 in favor of <br>
-                         a new BioShock game with a different setting,with Take-Two Interactive allowing them the freedom to develop it.Work on Infinite began in February 2008,<br>
-                          with the game's concept being formed six months after the original BioShock's release.Under the moniker "Project Icarus",Irrational worked in secrecy<br>
-                          on Infinite for two-and-a-half years prior to its announcement on August 12, 2010.The game's development took about five years, with it finally announced<br>
-                          as going gold on February 19, 2013.Irrational's work on the game required a team of about 200 people,while also receiving substantial assistance from developer company 2K Australia,<br>
+                    <p>BioShock Infinite was developed by Irrational Games and published by 2K Games, with Ken Levine working on the game as the creative director and lead writer.
+                         Irrational and Levine, who had previously developed the original BioShock, passed on the opportunity to work on the sequel BioShock 2 in favor of 
+                         a new BioShock game with a different setting,with Take-Two Interactive allowing them the freedom to develop it.Work on Infinite began in February 2008,
+                          with the game's concept being formed six months after the original BioShock's release.Under the moniker "Project Icarus",Irrational worked in secrecy
+                          on Infinite for two-and-a-half years prior to its announcement on August 12, 2010.The game's development took about five years, with it finally announced
+                          as going gold on February 19, 2013.Irrational's work on the game required a team of about 200 people,while also receiving substantial assistance from developer company 2K Australia,
                           which was formerly part of Irrational Games.</p>
                     </div>
                     <br>
@@ -219,7 +223,9 @@
                         <table>
                             <tr>
                                 <td>Will The circle be Broken</td>
-                                <td><audio src="../media/128 - Will The Circle Be Unbroken (Booker DeWitt & Elizabeth Full Version - Troy Baker & Courtnee Draper).mp3" controls ></audio></td>
+                                <td><audio id="at" controls autoplay>
+                                    <source src="../media/128 - Will The Circle Be Unbroken (Booker DeWitt & Elizabeth Full Version - Troy Baker & Courtnee Draper).ogg" type="audio/ogg">
+                                </audio></td>
                             </tr>
                             <tr>
                                 <td>God Only Knows</td>
@@ -239,14 +245,14 @@
                     <div id="buy now">
                         <h3>Buy now</h3>
                         <p id="inl">You can get it now for your Xbox click on the link below</p>
-                        <button id="b1" onclick="myFunction()">Buy now</button>
+                        <button id="b1" onclick="appear()">Buy now</button>
                         <iframe id="fr001" src="https://marketplace.xbox.com/en-US/Product/BioShock-Infinite/66acd000-77fe-1000-9115-d8025454085d"></iframe>
                     </div>
             </article>
            </div> 
         </div>
         <footer id="fff">
-                    <div id="footer">
+            <div id="footer">
           <div id="GAP_1"></div>
           <div id="D_footer1">
                <img src="../media/bilogo.png" alt="logo">
@@ -255,7 +261,7 @@
             <div id="ex_p" >
                 <h4>EXPLORE PROPERTIES</h4>
                 <ul>
-                  <li><a href="../index.html">Main</a></li>
+                  <li id="li0001"><a href="../index.html">Main</a></li>
                    <li><a href="../index.html#genre">Genres</a></li>
                 </ul>
              </div>
@@ -274,7 +280,7 @@
              <div id="contact_us">
                <h4>Contact Us</h4>
                you can contact us on this email
-               <a href="mailto:projectgaming400@gmail.com"
+               <a id="linkkk" href="mailto:projectgaming400@gmail.com"
                        target="post">projectgaming400@gmail.com</a>
              </div>
 
@@ -289,7 +295,9 @@
           <div id="GAP_2"></div>
     </div>
     </footer>
-
+    <div id="sc001">
+    <button onclick="scfunction()" id="scbtn"><img id="igsc" src="../media/uparrow001.png"></button>
+    </div>
         <script src="../javascript/Bioshock.js"></script>
     </body>
 </html>

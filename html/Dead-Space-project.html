@@ -7,7 +7,12 @@
     <link rel="shortcut icon" href="../media/Site-favicon.ico">
     <script src="https://kit.fontawesome.com/50ef20246f.js" crossorigin="anonymous"></script>
 </head>
-<body>
+<body onload="age()">
+    <div id="ol2" onclick="off()">
+        <div id="wr0002">
+            <img id="wrlogo1" src="../media/wrlogo.gif">
+            <h1 id="wr1">WARNING</h1><br> <p id="wr2">THIS GAME MAY CONTAIN CONTENT NOT APPROPRIATE FOR ALL AGES,CONTINUE AT YOUR OWN RISK<br>contains: blood and gore</p></div>
+    </div>
     <div id="C002">
         <div id="nv002">
             <nav>
@@ -22,13 +27,14 @@
         
                 </ul>
                 <div id="container002">
-                    <div id="toggle002" onclick="this.classList.toggle('active')">
+                    <div id="toggle002" onclick="lightm()">
                         <div id="circle002">
         
                         </div>
                     </div>
                 </div>
             </nav>
+        </div>    
         <div id="main002">
             <div id="content002">
                 <div id="ovrviw002">
@@ -129,7 +135,7 @@
                     <img id="scrn002" src="../media/Dead_Space_2011-01-05_02-13-52-51.jpg">
                 </div>
                 <h2>your opinion</h2>
-                <p>Pleas give us your opinion</p>
+                <p id="pls">Pleas give us your opinion</p>
                 <button id="b1" onclick="myFunction()">Your opinion</button>
                 <div class="feedback" id="form"> 
                     <form>
@@ -145,15 +151,15 @@
                       <label><b>Phone number </b></label>
                       <input type="text" name="phonenumber" placeholder="Your phone number.."><br/>
                      
-                     <div class="rate"> 
+                     <!-- <div class="rate"> 
                        <label><b>Rate our site</b></label><br>
                       <input type="range" min="1" max="100" value="50">
-                   </div>
+                   </div> -->
                      <br>
                       <label><b>Your feedback</b></label>
                       <textarea name="subject" style="height:75px"></textarea>
                 
-                      <input type="submit" onclick="myFunction()" value="Submit">
+                      <input type="submit" onclick="done()" value="Submit">
                     </form>
                 
                 </div>
@@ -190,11 +196,6 @@
                                 <td>Survival Horror
                                     Third-Person Shooter</td>
                             </tr>
-                            <tr>
-                                <td>Rating(s)</td>
-                                <td>
-                                    ESRB Mature 17+ / PEGI 18</td>
-                            </tr>
                         </table>
                     </figure>
                 </div>
@@ -228,7 +229,7 @@
              <div id="contact_us">
                <h4>Contact Us</h4>
                you can contact us on this email
-               <a href="mailto:projectgaming400@gmail.com"
+               <a id="linkkk2" href="mailto:projectgaming400@gmail.com"
                        target="post">projectgaming400@gmail.com</a>
              </div>
 
@@ -243,7 +244,9 @@
           <div id="GAP_2"></div>
     </div>
     </footer>
-
+    <div id="sc001">
+        <button onclick="scfunction()" id="scbtn"><img id="igsc" src="../media/uparrow001.png"></button>
+        </div>
     <script src="../javascript/dead-space.js"></script>
 </body>
 </html>
