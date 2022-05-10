@@ -20,8 +20,6 @@ text = "contact us ";
 }
 document.getElementById("demo").innerHTML = text;
 }
-function changeText(id) {
-  id.innerHTML = "Have a nice day";
-}
+
 function changeText(id) {
   id.style.color = "red";}
