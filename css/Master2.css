@@ -145,9 +145,8 @@ nav ul li a:hover {
 }
 
 footer {
-  background-color: rgba(255, 0, 0, 40%) ;
-  display: flex;
-  padding-top: 50px;
+display: flex;
+  padding-top: 1px;
   color:black;
 }
 
