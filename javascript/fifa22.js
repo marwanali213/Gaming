@@ -7,3 +7,7 @@ function transfero(obj){
 function transferou(obj){
     obj.innerHTML = "Fifa 22 Transfer Market"
 }
+function stfunction() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+  }
