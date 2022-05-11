@@ -57,6 +57,7 @@ footer {
     padding-top: 50px;
     height: 450px;
    margin-top: 8px;
+  margin-bottom: -32px;
 }
 #footer{
   font-size: 25px;
